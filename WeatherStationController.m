@@ -56,7 +56,7 @@ objectAccessor( WindSampleList,forecast , setForecast )
 
 -imageURL
 {
-	id url=[observationParser webcamURL];
+	id url=nil; // [observationParser webcamURL];
 	if ( !url ) {
 		NSLog(@"observation parser did not give us a URL!");
 		url=@"http://icons.wunderground.com/webcamramdisk/b/a/barenjager/2/current.jpg";
