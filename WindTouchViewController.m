@@ -76,7 +76,11 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 	LargeImageViewController *largeImage = [[[LargeImageViewController alloc]
 									 initWithNibName:@"LargeImageViewController" bundle:nil] autorelease];
 	[largeImage setImage:[imageView image]];
-	[self presentModalViewController:largeImage animated:YES];
+    
+    
+    [self presentViewController:largeImage animated:YES completion:NULL] ;
+	
+//    [self presentModalViewController:largeImage animated:YES];
 }
 
 -(void)didTapOnImage
@@ -108,6 +112,11 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 	// e.g. self.myOutlet = nil;
 }
 
+-viewControllers
+{
+    return @[];
+}
+
 -(IBAction)showForecast:sender
 {
 	NSLog(@"show forecast");
@@ -126,6 +135,21 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 - (void)dealloc {
     [super dealloc];
 }
+
+
+-(BOOL)shouldAutorotate
+{
+    NSLog(@"WindTouchViewController shouldAutorotate");
+    return NO;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    NSLog(@"WindTouchViewController supportedInterfaceOrientations");
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+
 
 @end
 

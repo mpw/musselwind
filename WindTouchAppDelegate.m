@@ -20,7 +20,8 @@
     // Override point for customization after app launch  
 	[viewController setWeatherStation:[[[WeatherStationController alloc] initWithStationId:@"KCADALYC1"] autorelease]];
 
-    [window addSubview:viewController.view];
+//    [window addSubview:viewController.view];
+    [window setRootViewController:viewController];
 	[viewController performSelector:@selector(updateWeather) withObject:nil afterDelay:0];
     [window makeKeyAndVisible];
 }
@@ -32,5 +33,15 @@
     [super dealloc];
 }
 
+- (NSUInteger)application_disabled:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    NSUInteger orientations = UIInterfaceOrientationMaskAll;
+    
+    if (self.window.rootViewController) {
+        UIViewController* presented = [[(UINavigationController *)self.window.rootViewController viewControllers] lastObject];
+        orientations = [presented supportedInterfaceOrientations];
+    }
+    return orientations;
+}
 
 @end

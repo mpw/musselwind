@@ -10,7 +10,8 @@
 
 
 @interface LargeImageViewController : UIViewController {
-
+    IBOutlet UIImageView *imageView;
+    UIImage *image;
 }
 
 @end

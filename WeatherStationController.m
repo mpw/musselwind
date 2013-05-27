@@ -87,8 +87,8 @@ objectAccessor( WindSampleList,forecast , setForecast )
 	id image=[[[[self imageClass] alloc] init] autorelease];
 	[image addRepresentation:bitmap];
 	NSLog(@"got image: %@",image);
-#endif		
-	[imageView setImage:image];
+#endif	
+    [imageView setImage:image];
 }
 
 -(void)updateImage

@@ -7,9 +7,17 @@
 //
 
 #import "LargeImageViewController.h"
-
+#import "AccessorMacros.h"
 
 @implementation LargeImageViewController
+
+objectAccessor(UIImageView, imageView, setImageView)
+objectAccessor(UIImage, image, setImage)
+
+-(UIScrollView*)scrollView
+{
+    return (UIScrollView*)[self view];
+}
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -25,35 +33,58 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[[self view] setUserInteractionEnabled:YES];
+    [[self imageView] setImage:[self image]];
+    [[self scrollView] addGestureRecognizer:[[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTap:)] autorelease]];
+//	[[self view] setUserInteractionEnabled:YES];
+//    [[self scrollView] setMaximumZoomScale:4.0];
+//    [[self scrollView] setMinimumZoomScale:1.0];
 }
 
+-viewForZoomingInScrollView:aScrollView
+{
+    return [self imageView];
+}
 
+-(void)didTap:(UITapGestureRecognizer*)recognizer
+{
+	[self dismissViewControllerAnimated:YES completion:NULL];
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
+    NSLog(@"shouldAutorotateToInterfaceOrientation: %d",interfaceOrientation);
     return YES; // (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+-(BOOL)shouldAutorotate
 {
+    NSLog(@"ImageViewController shouldAutorotate");
+    return YES;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    NSLog(@"ImageViewController supportedInterfaceOrientations");
+    return UIInterfaceOrientationMaskAll;
+}
+
+-(void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)newOrientation duration:(NSTimeInterval)timeToRotate
+{
+    NSLog(@"will rotate to %d in %g s",newOrientation,timeToRotate);
 }
 
 
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
 {
-	[self dismissModalViewControllerAnimated:YES];
-
+    [[self scrollView] setNeedsLayout];
+    [[self scrollView] setNeedsDisplay];
+    NSLog(@"did rotate from %d",fromInterfaceOrientation);
 }
 
 
--(void)setImage:(UIImage*) anImage
-{
-	CALayer *layer=[[self view] layer];
-	[layer setContents:[(id)[anImage CGImage] autorelease]];
-}
+
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
