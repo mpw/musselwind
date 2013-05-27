@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		1F2901BA112C72D900FC6E97 /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B28109E9A2F001D410B /* MPWFoundation.framework */; };
-		1F2901BB112C72D900FC6E97 /* MPWXmlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B29109E9A2F001D410B /* MPWXmlKit.framework */; };
 		1F2901BC112C72FC00FC6E97 /* WindObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CDE10A3CB9E001D410B /* WindObservation.m */; };
 		1F2901BE112C72FC00FC6E97 /* StationDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DE5A10B07DB700D209BA /* StationDataParser.m */; };
 		1F2901C0112C72FC00FC6E97 /* HistoryDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA010B098DF00D209BA /* HistoryDataParser.m */; };
@@ -67,6 +66,7 @@
 		1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F675D89140B9259007A62E8 /* CoreText.framework */; };
 		1F99BA2A1753B29A005B6846 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BA291753B29A005B6846 /* Default-568h@2x.png */; };
 		1F99BA2C1753B552005B6846 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BA2B1753B552005B6846 /* Default@2x.png */; };
+		1F99BA2E1753BB97005B6846 /* ObjectiveXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */; };
 		1FB8813A113ADF9D001442B8 /* forecast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FB88139113ADF9D001442B8 /* forecast.xml */; };
 		1FB88190113AE8FE001442B8 /* observation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FB8818F113AE8FE001442B8 /* observation.xml */; };
 		1FB88210113B044C001442B8 /* WindSampleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8820E113B044C001442B8 /* WindSampleList.h */; };
@@ -167,6 +167,7 @@
 		1F675D89140B9259007A62E8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		1F99BA291753B29A005B6846 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1F99BA2B1753B552005B6846 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveXML.framework; path = ../../Build/Development/ObjectiveXML.framework; sourceTree = "<group>"; };
 		1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWDrawingContext.h; sourceTree = "<group>"; };
 		1FB88139113ADF9D001442B8 /* forecast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = forecast.xml; sourceTree = "<group>"; };
 		1FB8818F113AE8FE001442B8 /* observation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = observation.xml; sourceTree = "<group>"; };
@@ -210,9 +211,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F99BA2E1753BB97005B6846 /* ObjectiveXML.framework in Frameworks */,
 				1F29FFAE112C72C600FC6E97 /* Foundation.framework in Frameworks */,
 				1F2901BA112C72D900FC6E97 /* MPWFoundation.framework in Frameworks */,
-				1F2901BB112C72D900FC6E97 /* MPWXmlKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +389,7 @@
 		29B97314FDCFA39411CA2CEA /* MusselWind */ = {
 			isa = PBXGroup;
 			children = (
+				1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */,
 				1F99BA2B1753B552005B6846 /* Default@2x.png */,
 				1F99BA291753B29A005B6846 /* Default-568h@2x.png */,
 				1F675D89140B9259007A62E8 /* CoreText.framework */,
@@ -750,6 +752,10 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Build/Development\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -778,6 +784,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Build/Development\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -1066,6 +1076,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Build/Development\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;

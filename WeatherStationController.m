@@ -279,7 +279,7 @@ objectAccessor( WindSampleList,forecast , setForecast )
 	[windRoseView setObservations:nil];
 	[windCurrent setHistory:nil];
 	[windHistory setHistory:nil];
-	[self loadMostRecentWeatherDataInBackground];
+	[self loadMostRecentWeatherData];
 	[self updateImageInBackground];
 	[self loadHistory];
 	[self loadForecastInBackground];

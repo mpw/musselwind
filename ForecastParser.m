@@ -110,7 +110,10 @@ objectAccessor( NSString, toDate, setToDate )
 		[sample setGust:[sample speed]];
 		[sample setDirection:[[directions objectAtIndex:i] intValue]];
 		NSString *dateString = [times objectAtIndex:i];
-		[sample setDate:[formatter dateFromString:[dateString substringToIndex:[dateString length]-6]]]; 
+        if ( [dateString length] > 6) {
+            dateString=[dateString substringToIndex:[dateString length]-6];
+        }
+        [sample setDate:[formatter dateFromString:dateString]];
 //		NSLog(@"observation[%d]=%@",i,sample);
 		[samples addObject:sample];
 	}

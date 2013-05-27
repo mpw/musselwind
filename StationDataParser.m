@@ -34,6 +34,7 @@ objectAccessor( NSString, webcamURL, setWebcamURL )
 	return [[attributes objectForKey:@"val"] retain];
 }
 
+
 -stationElement:children attributes:attributes parser:(MPWMAXParser*)aParser
 {
 	NSDateFormatter *formatter=[self dateConverter];
@@ -56,7 +57,12 @@ objectAccessor( NSString, webcamURL, setWebcamURL )
 {
 	[self setXmlparser:[MPWMAXParser parser]];
 	//	[parser setHandler:self forElements:[NSArray arrayWithObjects:@"current_observation",@"html",@"HTML",nil] inNamespace:nil prefix:@"" map:nil];
-	[[self xmlparser] setHandler:self forElements:[NSArray arrayWithObjects:@"CAM",@"conds",[self stationId],@"winddir",@"windspeedmph",@"windgustmph",@"html",@"HTML",@"dateutc",nil] inNamespace:nil prefix:@"" 
+    [[self xmlparser] declareAttributes:@[@"val"] inNamespace:nil];
+    
+    
+	[[self xmlparser] setHandler:self forElements:@[@"CAM",@"conds",     @"winddir",@"windspeedmph",@"windgustmph",
+     @"html",@"HTML",@"dateutc", [self stationId]]
+                     inNamespace:nil prefix:@""
 				   map:[NSDictionary dictionaryWithObjectsAndKeys:
 						@"value",@"winddir",
 						@"value",@"windspeedmph",
@@ -66,7 +72,8 @@ objectAccessor( NSString, webcamURL, setWebcamURL )
 						@"station",[self stationId],
 						nil]];
 	[[self xmlparser] setDelegate:self];
-	[[self xmlparser] setUndefinedTagAction:MAX_ACTION_NONE];	
+
+	[[self xmlparser] setUndefinedTagAction:MAX_ACTION_NONE];
 }
 
 

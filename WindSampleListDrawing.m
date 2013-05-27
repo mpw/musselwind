@@ -91,7 +91,7 @@
         CTFontRef font=CTFontCreateWithName((CFStringRef)labelFont.fontName, 
                                             labelFont.pointSize, 
                                             NULL);
-        NSLog(@"font: %@/%@",labelFont,(id)font);
+//        NSLog(@"font: %@/%@",labelFont,(id)font);
         [context resetTextMatrix];
 		for ( int i=0; i< [self count] ; i++ ){
 			WindObservation *obs=[self objectAtIndex:i];

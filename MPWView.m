@@ -20,7 +20,7 @@
 
 -(void)drawRect:(NSRect)rect
 {
-	NSLog(@"-[%@ drawRect:%@]",[self class],NSStringFromRect(rect));
+//	NSLog(@"-[%@ drawRect:%@]",[self class],NSStringFromRect(rect));
 	MPWCGDrawingContext *context = [MPWCGDrawingContext currentContext];
 #if TARGET_OS_IPHONE
 	[context translate:0  :[self bounds].size.height];

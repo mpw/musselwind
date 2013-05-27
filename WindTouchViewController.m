@@ -139,13 +139,11 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 
 -(BOOL)shouldAutorotate
 {
-    NSLog(@"WindTouchViewController shouldAutorotate");
     return NO;
 }
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    NSLog(@"WindTouchViewController supportedInterfaceOrientations");
     return UIInterfaceOrientationMaskPortrait;
 }
 
