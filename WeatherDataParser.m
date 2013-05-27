@@ -55,7 +55,12 @@ objectAccessor( MPWMAXParser, xmlparser, setXmlparser )
 
 -(WindSampleList*)getWeatherDataFromURL:aURL
 {
-	return [[[WindSampleList alloc] initWithArray:[[self xmlparser] parsedDataFromURL:aURL]] autorelease];
+    @try {
+        return [[[WindSampleList alloc] initWithArray:[[self xmlparser] parsedDataFromURL:aURL]] autorelease];
+    } @catch (id exception) {
+        NSLog(@"exception: %@",exception);
+    }
+    return nil;
 }
 
 -(WindSampleList*)getWeatherData

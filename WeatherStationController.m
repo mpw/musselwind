@@ -173,22 +173,27 @@ objectAccessor( WindSampleList,forecast , setForecast )
 
 -(void)loadHistory
 {
-	NSAutoreleasePool *pool=[NSAutoreleasePool new];
-	NSTimer* refreshTimer= [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(refreshHistoryIfNecessary) userInfo:nil repeats:YES];
-//	NSLog(@"start loadhistory");
-	[self setHistory:[[[WindSampleList alloc] init] autorelease]];
-	[[self history] setMinDate:[[[self history] class] startOfDayFromDate:[NSDate date]] ];
-	[[self history] setMaxDate:[[[self history] minDate] addTimeInterval:24*3600] ];
-//	NSLog(@"historyParser: %@",historyParser);
-	[historyParser parseWeatherDataInBackground];
-//	[windHistory setHistory:[self history]];
-	haveNewSamples=YES;
-//	[self refreshHistoryIfNecessary];
-//	[refreshTimer invalidate];
-//	NSLog(@"finish loadhistory");
-//	[windHistory performSelectorOnMainThread:@selector(setHistory:) withObject:hist waitUntilDone:NO];
-	//	NSLog(@"history: %@",hist);
-	[pool release];
+    @try {
+        NSAutoreleasePool *pool=[NSAutoreleasePool new];
+        NSTimer* refreshTimer= [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(refreshHistoryIfNecessary) userInfo:nil repeats:YES];
+        //	NSLog(@"start loadhistory");
+        [self setHistory:[[[WindSampleList alloc] init] autorelease]];
+        [[self history] setMinDate:[[[self history] class] startOfDayFromDate:[NSDate date]] ];
+        [[self history] setMaxDate:[[[self history] minDate] addTimeInterval:24*3600] ];
+        //	NSLog(@"historyParser: %@",historyParser);
+        [historyParser parseWeatherDataInBackground];
+        //	[windHistory setHistory:[self history]];
+        haveNewSamples=YES;
+        //	[self refreshHistoryIfNecessary];
+        //	[refreshTimer invalidate];
+        //	NSLog(@"finish loadhistory");
+        //	[windHistory performSelectorOnMainThread:@selector(setHistory:) withObject:hist waitUntilDone:NO];
+        //	NSLog(@"history: %@",hist);
+        [pool release];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"exception loading history: %@",exception);
+    }
 }
 
 -(WindSampleList*)loadForecastForDaysFromNow:(int)relativeDay
@@ -278,7 +283,7 @@ objectAccessor( WindSampleList,forecast , setForecast )
 	[self updateImageInBackground];
 	[self loadHistory];
 	[self loadForecastInBackground];
-	[NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(loadMostRecentWeatherData) userInfo:nil repeats:YES];
+	[NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(loadMostRecentWeatherDataInBackground) userInfo:nil repeats:YES];
 	[NSTimer scheduledTimerWithTimeInterval:60 target:self selector:@selector(updateImageInBackground) userInfo:nil repeats:YES];
 	[NSTimer scheduledTimerWithTimeInterval:300 target:self selector:@selector(loadHistory) userInfo:nil repeats:YES];
 	[NSTimer scheduledTimerWithTimeInterval:3600 target:self selector:@selector(loadForecastInBackground) userInfo:nil repeats:YES];
