@@ -1,0 +1,48 @@
+<conds>
+<KCADALYC1>
+<epoch val="1267380493"></epoch>
+<updated val="1267380493"></updated>
+<ageh val="0"></ageh>
+<agem val="0"></agem>
+<ages val="0"></ages>
+<type val="PWS"></type>
+<id val="KCADALYC1"></id>
+<lat val="37.66734695"></lat>
+<lon val="-122.48934174"></lon>
+<adm1 val="Daly City"></adm1>
+<adm2 val="CA"></adm2>
+<country val="US"></country>
+<neighborhood val="Mussel Rock"></neighborhood>
+<dateutc val="2010-02-28 18:08:13"></dateutc>
+<winddir val="221"></winddir>
+<windspeedmph val="4.0"></windspeedmph>
+<windgustmph val="9.0"></windgustmph>
+<humidity val="96"></humidity>
+<tempf val="54.1"></tempf>
+<rainin val="0.00"></rainin>
+<dailyrainin val="0.00"></dailyrainin>
+<baromin val="29.97"></baromin>
+<dewptf val="53.0"></dewptf>
+<weather val=""></weather>
+<clouds val="SKC"></clouds>
+<windchillf val="-999"></windchillf>
+<heatindexf val="54"></heatindexf>
+<softwaretype val="VWS V14.01"></softwaretype>
+<elev val="514"></elev>
+<maxtemp val="54.2"></maxtemp>
+<mintemp val="49.6"></mintemp>
+<maxdewpoint val="53.3"></maxdewpoint>
+<mindewpoint val="49.6"></mindewpoint>
+<maxpressure val="29.97"></maxpressure>
+<minpressure val="29.83"></minpressure>
+<maxwindspeed val="20"></maxwindspeed>
+<maxwindgust val="20"></maxwindgust>
+<maxrain val="0.00"></maxrain>
+<maxheatindex val="54"></maxheatindex>
+<minwindchill val="46"></minwindchill>
+<rtfreq val="2.5"></rtfreq>
+<solarradiation val="334.00"></solarradiation>
+<UV val="2.40"></UV>
+<CAM val="http://icons.wunderground.com/webcamramdisk/b/a/barenjager/2/current.jpg"></CAM>
+</KCADALYC1>
+</conds>

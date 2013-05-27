@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {939, 402}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	1F01F7B4117FEA4B00B4C034 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MusselWind-Cocoa-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/marcel/programming/Projects/MusselWind/MusselWind-Cocoa-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1F0650AB136EF87300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FEC5CFE10A3D245001D410B /* WindHistoryView.m */;
+		name = "WindHistoryView.m: 54";
+		rLen = 0;
+		rLoc = 1291;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 374;
+	};
+	1F0650AC136EF87300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* MusselWindAppDelegate.h */;
+		name = "MusselWindAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 0;
+	};
+	1F0650AD136EF87300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MusselWindAppDelegate.m */;
+		name = "MusselWindAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 0;
+	};
+	1F065118136F110300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB6EB2F10CE9BA800843770 /* MPWCGDrawingStream.m */;
+		name = "MPWCGDrawingStream.m: 93";
+		rLen = 0;
+		rLoc = 1595;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 1012;
+	};
+	1F065119136F110300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */;
+		name = "MPWDrawingContext.h: 30";
+		rLen = 403;
+		rLoc = 893;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 0;
+	};
+	1F06511A136F110300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB6EB2E10CE9BA800843770 /* MPWCGDrawingStream.h */;
+		name = "MPWCGDrawingStream.h: 20";
+		rLen = 17;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 0;
+	};
+	1F06511B136F110300DA2998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB6EB2E10CE9BA800843770 /* MPWCGDrawingStream.h */;
+		name = "MPWCGDrawingStream.h: 20";
+		rLen = 17;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 0;
+	};
+	1F232FB51182BFE6001DF7D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	1F2901C7112C732F00FC6E97 /* WindObservationDrawing.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 526}}";
+			sepNavSelRange = "{240, 37}";
+			sepNavVisRange = "{0, 310}";
+		};
+	};
+	1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 559}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 706}";
+		};
+	};
+	1F29FFA8112C72B900FC6E97 /* WindReporting */ = {
+		activeExec = 0;
+	};
+	1F32D25D127FE27200A20456 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1F5AF82A117F836C0027DE6B /* Icon.png */;
+	};
+	1F32D2BC12827D0900A20456 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBA548011448FE000F2B97A /* WindForecastViewController.m */;
+		name = "WindForecastViewController.m: 107";
+		rLen = 0;
+		rLoc = 3753;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 3230;
+	};
+	1F3362061296FCB10079D51D /* MPWView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 572}}";
+			sepNavSelRange = "{314, 6}";
+			sepNavVisRange = "{0, 479}";
+		};
+	};
+	1F3362071296FCB10079D51D /* MPWView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 416}}";
+			sepNavSelRange = "{397, 0}";
+			sepNavVisRange = "{153, 480}";
+		};
+	};
+	1F3362311297106D0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4FCAA310B910780078E510 /* WindRoseView.h */;
+		name = "WindRoseView.h: 25";
+		rLen = 0;
+		rLoc = 419;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	1F3362321297106D0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBE5210B1226300A22595 /* WindHistoryTouchView.h */;
+		name = "WindHistoryTouchView.h: 10";
+		rLen = 20;
+		rLoc = 150;
+		rType = 0;
+		vrLen = 548;
+		vrLoc = 0;
+	};
+	1F3362411297113D0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FBFBE5310B1226300A22595 /* WindHistoryTouchView.m */;
+		name = "WindHistoryTouchView.m: 76";
+		rLen = 0;
+		rLoc = 1304;
+		rType = 0;
+		vrLen = 1560;
+		vrLoc = 1129;
+	};
+	1F336248129713AD0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */;
+		name = "WindObservationDrawing.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 0;
+	};
+	1F336249129713AD0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F2901C7112C732F00FC6E97 /* WindObservationDrawing.h */;
+		name = "WindObservationDrawing.h: 15";
+		rLen = 37;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+	1F33624A129713AD0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F4FCAA410B910780078E510 /* WindRoseView.m */;
+		name = "WindRoseView.m: 131";
+		rLen = 73;
+		rLoc = 3071;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 2714;
+	};
+	1F33624B129713AD0079D51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB88220113B0629001442B8 /* WindSampleListDrawing.m */;
+		name = "WindSampleListDrawing.m: 172";
+		rLen = 15;
+		rLoc = 6282;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 5321;
+	};
+	1F380473129622900081473B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB8821F113B0629001442B8 /* WindSampleListDrawing.h */;
+		name = "WindSampleListDrawing.h: 13";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 1194;
+		vrLoc = 0;
+	};
+	1F421EA810C2513500C403D5 /* MusselWind (Windows) */ = {
+		activeExec = 0;
+		executables = (
+			1F5AF907117FE8210027DE6B /* MusselWind (Windows) */,
+		);
+	};
+	1F4FCAA310B910780078E510 /* WindRoseView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 338}}";
+			sepNavSelRange = "{223, 12}";
+			sepNavVisRange = "{82, 342}";
+		};
+	};
+	1F4FCAA410B910780078E510 /* WindRoseView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2028}}";
+			sepNavSelRange = "{3071, 73}";
+			sepNavVisRange = "{2714, 1062}";
+		};
+	};
+	1F5AF905117FE8210027DE6B /* MusselWind (Cocoa) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "MusselWind (Cocoa)";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F5AF906117FE8210027DE6B /* MusselWind */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MusselWind;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1F5AF907117FE8210027DE6B /* MusselWind (Windows) */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "MusselWind (Windows)";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1F5AF91E117FE82A0027DE6B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F5AF91F117FE82A0027DE6B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F6099E410C0F58A005C588C /* WindRoseXView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 547}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	1F6099E510C0F58A005C588C /* WindRoseXView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 549}}";
+			sepNavSelRange = "{653, 8}";
+			sepNavVisRange = "{0, 893}";
+		};
+	};
+	1F61DE5A10B07DB700D209BA /* StationDataParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1482, 1287}}";
+			sepNavSelRange = "{1208, 14}";
+			sepNavVisRange = "{800, 1383}";
+		};
+	};
+	1F61DEA010B098DF00D209BA /* HistoryDataParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1685, 1157}}";
+			sepNavSelRange = "{916, 14}";
+			sepNavVisRange = "{146, 969}";
+		};
+	};
+	1F61DEA310B0995D00D209BA /* WeatherDataParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1300}}";
+			sepNavSelRange = "{891, 16}";
+			sepNavVisRange = "{298, 701}";
+		};
+	};
+	1F61DF3B10B0D3DA00D209BA /* MusselWind */ = {
+		activeExec = 0;
+		executables = (
+			1F5AF906117FE8210027DE6B /* MusselWind */,
+		);
+	};
+	1F61DF3E10B0D3DA00D209BA /* MusselWind-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{860, 0}, {964, 1178}}";
+		};
+	};
+	1F61DF6210B0D46500D209BA /* WindTouchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 623}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 542}";
+		};
+	};
+	1F61DF6310B0D46500D209BA /* WindTouchViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1833}}";
+			sepNavSelRange = "{1823, 0}";
+			sepNavVisRange = "{1039, 1521}";
+		};
+	};
+	1F61DF9310B0D73D00D209BA /* WeatherStationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 3926}}";
+			sepNavSelRange = "{4726, 0}";
+			sepNavVisRange = "{4303, 563}";
+		};
+	};
+	1F7D84931282810C00370F23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */;
+		name = "ForecastParser.m: 92";
+		rLen = 16;
+		rLoc = 2351;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 1977;
+	};
+	1F7D84941282810C00370F23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F61DEA310B0995D00D209BA /* WeatherDataParser.m */;
+		name = "WeatherDataParser.m: 39";
+		rLen = 16;
+		rLoc = 891;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 298;
+	};
+	1F7D84951282810C00370F23 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FEC5CDE10A3CB9E001D410B /* WindObservation.m */;
+		name = "WindObservation.m: 1";
+		rLen = 0;
+		rLoc = 2;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 0;
+	};
+	1F90D929126C284E007D391A /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			1F90D982126C31D8007D391A /* PBXTextBookmark */,
+		);
+		name = Root;
+	};
+	1F90D977126C3104007D391A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FEC5CDD10A3CB9E001D410B /* WindObservation.h */;
+		name = "WindObservation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	1F90D982126C31D8007D391A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB88220113B0629001442B8 /* WindSampleListDrawing.m */;
+		name = "WindSampleListDrawing.m: 85";
+		rLen = 0;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 1424;
+		vrLoc = 1802;
+	};
+	1FB48B5112960DDE00CA4DDE /* CGContext.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGContext.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGContext.h;
+		sourceTree = "<absolute>";
+	};
+	1FB48BBB129615B800CA4DDE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 1FDD4F2F1180AD930085B99B /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/marcel/programming/Projects/MusselWind/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1FB48BF91296193A00CA4DDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB48B5112960DDE00CA4DDE /* CGContext.h */;
+		name = "CGContext.h: 334";
+		rLen = 13;
+		rLoc = 11925;
+		rType = 0;
+		vrLen = 1846;
+		vrLoc = 11302;
+	};
+	1FB48BFA1296193A00CA4DDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB8820F113B044C001442B8 /* WindSampleList.m */;
+		name = "WindSampleList.m: 99";
+		rLen = 0;
+		rLoc = 2881;
+		rType = 0;
+		vrLen = 1392;
+		vrLoc = 2080;
+	};
+	1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 566}}";
+			sepNavSelRange = "{893, 403}";
+			sepNavVisRange = "{0, 1303}";
+		};
+	};
+	1FB48C2D12961E7000CA4DDE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FB48C2E12961E7000CA4DDE /* PhoneGeometry.h */;
+		name = "PhoneGeometry.h: 20";
+		rLen = 0;
+		rLoc = 419;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 0;
+	};
+	1FB48C2E12961E7000CA4DDE /* PhoneGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PhoneGeometry.h;
+		path = /Users/marcel/programming/Projects/MusselWind/PhoneGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	1FB6EB2E10CE9BA800843770 /* MPWCGDrawingStream.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 566}}";
+			sepNavSelRange = "{436, 17}";
+			sepNavVisRange = "{0, 586}";
+		};
+	};
+	1FB6EB2F10CE9BA800843770 /* MPWCGDrawingStream.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 2106}}";
+			sepNavSelRange = "{1595, 0}";
+			sepNavVisRange = "{1012, 917}";
+			sepNavWindowFrame = "{{410, 25}, {1038, 753}}";
+		};
+	};
+	1FB8820F113B044C001442B8 /* WindSampleList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1209, 2379}}";
+			sepNavSelRange = "{2881, 0}";
+			sepNavVisRange = "{2080, 1392}";
+		};
+	};
+	1FB8821F113B0629001442B8 /* WindSampleListDrawing.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 576}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 1194}";
+		};
+	};
+	1FB88220113B0629001442B8 /* WindSampleListDrawing.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 2418}}";
+			sepNavSelRange = "{6282, 15}";
+			sepNavVisRange = "{5321, 1476}";
+		};
+	};
+	1FBA548011448FE000F2B97A /* WindForecastViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1612}}";
+			sepNavSelRange = "{3753, 0}";
+			sepNavVisRange = "{3230, 699}";
+		};
+	};
+	1FBFBE5210B1226300A22595 /* WindHistoryTouchView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 526}}";
+			sepNavSelRange = "{150, 20}";
+			sepNavVisRange = "{0, 548}";
+			sepNavWindowFrame = "{{53, 20}, {1038, 753}}";
+		};
+	};
+	1FBFBE5310B1226300A22595 /* WindHistoryTouchView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 1417}}";
+			sepNavSelRange = "{1304, 0}";
+			sepNavVisRange = "{1129, 1562}";
+		};
+	};
+	1FDE1191129725C400F639B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F6099E510C0F58A005C588C /* WindRoseXView.m */;
+		name = "WindRoseXView.m: 36";
+		rLen = 8;
+		rLoc = 653;
+		rType = 0;
+		vrLen = 893;
+		vrLoc = 0;
+	};
+	1FDE1192129725C400F639B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3362061296FCB10079D51D /* MPWView.h */;
+		name = "MPWView.h: 16";
+		rLen = 6;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	1FDE1195129725C400F639B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3362071296FCB10079D51D /* MPWView.m */;
+		name = "MPWView.m: 19";
+		rLen = 330;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 0;
+	};
+	1FDE1196129725C400F639B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F6099E410C0F58A005C588C /* WindRoseXView.h */;
+		name = "WindRoseXView.h: 11";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	1FDE1197129725C400F639B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1FEC5CFD10A3D245001D410B /* WindHistoryView.h */;
+		name = "WindHistoryView.h: 12";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 470;
+		vrLoc = 0;
+	};
+	1FDE95E8110589A200B319C3 /* ForecastParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 2600}}";
+			sepNavSelRange = "{2753, 0}";
+			sepNavVisRange = "{4721, 744}";
+		};
+	};
+	1FEC5CDD10A3CB9E001D410B /* WindObservation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {981, 443}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 491}";
+		};
+	};
+	1FEC5CDE10A3CB9E001D410B /* WindObservation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 520}}";
+			sepNavSelRange = "{2, 0}";
+			sepNavVisRange = "{0, 564}";
+		};
+	};
+	1FEC5CFD10A3D245001D410B /* WindHistoryView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 547}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{0, 470}";
+		};
+	};
+	1FEC5CFE10A3D245001D410B /* WindHistoryView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 806}}";
+			sepNavSelRange = "{1291, 0}";
+			sepNavVisRange = "{374, 1093}";
+		};
+	};
+	1FFCDADA118DEA8A003DBFFC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 1F61DF3E10B0D3DA00D209BA /* MusselWind-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/marcel/programming/Projects/MusselWind/MusselWind-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	1FFEE0561274E5FD00E082FB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1FFEE04D1274E43800E082FB /* Icon-72.png */;
+	};
+	256AC3D80F4B6AC300CF3369 /* MusselWindAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 568}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 630}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* MusselWindAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 950}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 1F5AF905117FE8210027DE6B /* MusselWind (Cocoa) */;
+		activeTarget = 8D1107260486CEB800E47090 /* MusselWind (Cocoa) */;
+		addToTargets = (
+			1F61DF3B10B0D3DA00D209BA /* MusselWind */,
+			8D1107260486CEB800E47090 /* MusselWind (Cocoa) */,
+		);
+		codeSenseManager = 1F5AF91F117FE82A0027DE6B /* Code sense */;
+		executables = (
+			1F5AF905117FE8210027DE6B /* MusselWind (Cocoa) */,
+			1F5AF906117FE8210027DE6B /* MusselWind */,
+			1F5AF907117FE8210027DE6B /* MusselWind (Windows) */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					649,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					673,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					772,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 326039675;
+			PBXWorkspaceStateSaveDate = 326039675;
+		};
+		perUserProjectItems = {
+			1F01F7B4117FEA4B00B4C034 /* PlistBookmark */ = 1F01F7B4117FEA4B00B4C034 /* PlistBookmark */;
+			1F0650AB136EF87300DA2998 /* PBXTextBookmark */ = 1F0650AB136EF87300DA2998 /* PBXTextBookmark */;
+			1F0650AC136EF87300DA2998 /* PBXTextBookmark */ = 1F0650AC136EF87300DA2998 /* PBXTextBookmark */;
+			1F0650AD136EF87300DA2998 /* PBXTextBookmark */ = 1F0650AD136EF87300DA2998 /* PBXTextBookmark */;
+			1F065118136F110300DA2998 /* PBXTextBookmark */ = 1F065118136F110300DA2998 /* PBXTextBookmark */;
+			1F065119136F110300DA2998 /* PBXTextBookmark */ = 1F065119136F110300DA2998 /* PBXTextBookmark */;
+			1F06511A136F110300DA2998 /* PBXTextBookmark */ = 1F06511A136F110300DA2998 /* PBXTextBookmark */;
+			1F06511B136F110300DA2998 /* PBXTextBookmark */ = 1F06511B136F110300DA2998 /* PBXTextBookmark */;
+			1F232FB51182BFE6001DF7D0 /* PBXTextBookmark */ = 1F232FB51182BFE6001DF7D0 /* PBXTextBookmark */;
+			1F32D25D127FE27200A20456 /* PBXBookmark */ = 1F32D25D127FE27200A20456 /* PBXBookmark */;
+			1F32D2BC12827D0900A20456 /* PBXTextBookmark */ = 1F32D2BC12827D0900A20456 /* PBXTextBookmark */;
+			1F3362311297106D0079D51D /* PBXTextBookmark */ = 1F3362311297106D0079D51D /* PBXTextBookmark */;
+			1F3362321297106D0079D51D /* PBXTextBookmark */ = 1F3362321297106D0079D51D /* PBXTextBookmark */;
+			1F3362411297113D0079D51D /* PBXTextBookmark */ = 1F3362411297113D0079D51D /* PBXTextBookmark */;
+			1F336248129713AD0079D51D /* PBXTextBookmark */ = 1F336248129713AD0079D51D /* PBXTextBookmark */;
+			1F336249129713AD0079D51D /* PBXTextBookmark */ = 1F336249129713AD0079D51D /* PBXTextBookmark */;
+			1F33624A129713AD0079D51D /* PBXTextBookmark */ = 1F33624A129713AD0079D51D /* PBXTextBookmark */;
+			1F33624B129713AD0079D51D /* PBXTextBookmark */ = 1F33624B129713AD0079D51D /* PBXTextBookmark */;
+			1F380473129622900081473B /* PBXTextBookmark */ = 1F380473129622900081473B /* PBXTextBookmark */;
+			1F7D84931282810C00370F23 /* PBXTextBookmark */ = 1F7D84931282810C00370F23 /* PBXTextBookmark */;
+			1F7D84941282810C00370F23 /* PBXTextBookmark */ = 1F7D84941282810C00370F23 /* PBXTextBookmark */;
+			1F7D84951282810C00370F23 /* PBXTextBookmark */ = 1F7D84951282810C00370F23 /* PBXTextBookmark */;
+			1F90D977126C3104007D391A /* PBXTextBookmark */ = 1F90D977126C3104007D391A /* PBXTextBookmark */;
+			1FB48BBB129615B800CA4DDE /* PlistBookmark */ = 1FB48BBB129615B800CA4DDE /* PlistBookmark */;
+			1FB48BF91296193A00CA4DDE /* PBXTextBookmark */ = 1FB48BF91296193A00CA4DDE /* PBXTextBookmark */;
+			1FB48BFA1296193A00CA4DDE /* PBXTextBookmark */ = 1FB48BFA1296193A00CA4DDE /* PBXTextBookmark */;
+			1FB48C2D12961E7000CA4DDE /* PBXTextBookmark */ = 1FB48C2D12961E7000CA4DDE /* PBXTextBookmark */;
+			1FDE1191129725C400F639B7 /* PBXTextBookmark */ = 1FDE1191129725C400F639B7 /* PBXTextBookmark */;
+			1FDE1192129725C400F639B7 /* PBXTextBookmark */ = 1FDE1192129725C400F639B7 /* PBXTextBookmark */;
+			1FDE1195129725C400F639B7 /* PBXTextBookmark */ = 1FDE1195129725C400F639B7 /* PBXTextBookmark */;
+			1FDE1196129725C400F639B7 /* PBXTextBookmark */ = 1FDE1196129725C400F639B7 /* PBXTextBookmark */;
+			1FDE1197129725C400F639B7 /* PBXTextBookmark */ = 1FDE1197129725C400F639B7 /* PBXTextBookmark */;
+			1FFCDADA118DEA8A003DBFFC /* PlistBookmark */ = 1FFCDADA118DEA8A003DBFFC /* PlistBookmark */;
+			1FFEE0561274E5FD00E082FB /* PBXBookmark */ = 1FFEE0561274E5FD00E082FB /* PBXBookmark */;
+		};
+		sourceControlManager = 1F5AF91E117FE82A0027DE6B /* Source Control */;
+		userBookmarkGroup = 1F90D929126C284E007D391A /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 282}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 253}";
+		};
+	};
+	8D1107260486CEB800E47090 /* MusselWind (Cocoa) */ = {
+		activeExec = 0;
+		executables = (
+			1F5AF905117FE8210027DE6B /* MusselWind (Cocoa) */,
+		);
+	};
+}

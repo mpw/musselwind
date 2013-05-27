@@ -1,0 +1,6 @@
+#!/usr/local/bin/stsh
+#-forecast
+context loadFramework:'WindReporting'
+fp := ForecastParser alloc initWithStationId:'dummy'
+fp setDay:(NSDate date addTimeInterval:3600).
+ fp getWeatherData samples

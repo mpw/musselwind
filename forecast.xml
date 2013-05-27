@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.nws.noaa.gov/forecasts/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="time-series" operational-mode="official">
+      <title>NOAA's National Weather Service Forecast Data</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2010-02-28T17:29:45Z</creation-date>
+    </product>
+    <source>
+      <more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>http://www.weather.gov/</credit>
+      <credit-logo>http://www.weather.gov/images/xml_logo.gif</credit-logo>
+      <feedback>http://www.weather.gov/feedback.php</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="37.67" longitude="-122.49"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">http://forecast.weather.gov/MapClick.php?textField1=37.67&amp;textField2=-122.49</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3h-n6-1</layout-key>
+      <start-valid-time>2010-02-28T10:00:00-08:00</start-valid-time>
+      <start-valid-time>2010-02-28T13:00:00-08:00</start-valid-time>
+      <start-valid-time>2010-02-28T16:00:00-08:00</start-valid-time>
+      <start-valid-time>2010-02-28T19:00:00-08:00</start-valid-time>
+      <start-valid-time>2010-02-28T22:00:00-08:00</start-valid-time>
+      <start-valid-time>2010-03-01T01:00:00-08:00</start-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <wind-speed type="sustained" units="knots" time-layout="k-p3h-n6-1">
+        <name>Wind Speed</name>
+        <value>6</value>
+        <value>10</value>
+        <value>9</value>
+        <value>10</value>
+        <value>7</value>
+        <value>5</value>
+      </wind-speed>
+      <direction type="wind" units="degrees true" time-layout="k-p3h-n6-1">
+        <name>Wind Direction</name>
+        <value>250</value>
+        <value>270</value>
+        <value>270</value>
+        <value>270</value>
+        <value>260</value>
+        <value>170</value>
+      </direction>
+    </parameters>
+  </data>
+</dwml>

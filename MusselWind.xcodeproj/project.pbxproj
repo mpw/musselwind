@@ -1,0 +1,1196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F2901BA112C72D900FC6E97 /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B28109E9A2F001D410B /* MPWFoundation.framework */; };
+		1F2901BB112C72D900FC6E97 /* MPWXmlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B29109E9A2F001D410B /* MPWXmlKit.framework */; };
+		1F2901BC112C72FC00FC6E97 /* WindObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CDE10A3CB9E001D410B /* WindObservation.m */; };
+		1F2901BE112C72FC00FC6E97 /* StationDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DE5A10B07DB700D209BA /* StationDataParser.m */; };
+		1F2901C0112C72FC00FC6E97 /* HistoryDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA010B098DF00D209BA /* HistoryDataParser.m */; };
+		1F2901C2112C72FC00FC6E97 /* WeatherDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA310B0995D00D209BA /* WeatherDataParser.m */; };
+		1F2901C6112C72FC00FC6E97 /* ForecastParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */; };
+		1F2901C9112C732F00FC6E97 /* WindObservationDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */; };
+		1F2901CA112C732F00FC6E97 /* WindObservationDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */; };
+		1F2901CB112C732F00FC6E97 /* WindObservationDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */; };
+		1F2901CC112C732F00FC6E97 /* WindObservationDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2901C7112C732F00FC6E97 /* WindObservationDrawing.h */; };
+		1F29FFAE112C72C600FC6E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3410B1256C00A22595 /* Foundation.framework */; };
+		1F3362081296FCB10079D51D /* MPWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3362071296FCB10079D51D /* MPWView.m */; };
+		1F3362091296FCB10079D51D /* MPWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3362071296FCB10079D51D /* MPWView.m */; };
+		1F3AEC5D11377721003E7F2D /* historyData.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1F3AEC5C11377721003E7F2D /* historyData.xml */; };
+		1F421EAA10C2513500C403D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		1F421EAB10C2513500C403D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F421EAD10C2513500C403D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		1F421EAE10C2513500C403D5 /* MusselWindAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MusselWindAppDelegate.m */; };
+		1F421EAF10C2513500C403D5 /* WindObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CDE10A3CB9E001D410B /* WindObservation.m */; };
+		1F421EB010C2513500C403D5 /* WindHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CFE10A3D245001D410B /* WindHistoryView.m */; };
+		1F421EB110C2513500C403D5 /* StationDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DE5A10B07DB700D209BA /* StationDataParser.m */; };
+		1F421EB210C2513500C403D5 /* HistoryDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA010B098DF00D209BA /* HistoryDataParser.m */; };
+		1F421EB310C2513500C403D5 /* WeatherDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA310B0995D00D209BA /* WeatherDataParser.m */; };
+		1F421EB410C2513500C403D5 /* WeatherStationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF9310B0D73D00D209BA /* WeatherStationController.m */; };
+		1F421EB510C2513500C403D5 /* WindRoseXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6099E510C0F58A005C588C /* WindRoseXView.m */; };
+		1F421EB810C2513500C403D5 /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B28109E9A2F001D410B /* MPWFoundation.framework */; };
+		1F421EB910C2513500C403D5 /* MPWXmlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B29109E9A2F001D410B /* MPWXmlKit.framework */; };
+		1F42211410C255E700C403D5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		1F42211510C255E700C403D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		1F4FCAA510B910780078E510 /* WindRoseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FCAA410B910780078E510 /* WindRoseView.m */; };
+		1F5AF82B117F836C0027DE6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AF82A117F836C0027DE6B /* Icon.png */; };
+		1F5AF82C117F836C0027DE6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AF82A117F836C0027DE6B /* Icon.png */; };
+		1F5AF82D117F836C0027DE6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AF82A117F836C0027DE6B /* Icon.png */; };
+		1F615FDE126C244800C96F9B /* libMPWFoundationTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F615FB5126C22A000C96F9B /* libMPWFoundationTouch.a */; };
+		1F61A11B10F928EA0043BB22 /* LargeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61A11910F928EA0043BB22 /* LargeImageViewController.m */; };
+		1F61A11C10F928EA0043BB22 /* LargeImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F61A11A10F928EA0043BB22 /* LargeImageViewController.xib */; };
+		1F61DE5B10B07DB700D209BA /* StationDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DE5A10B07DB700D209BA /* StationDataParser.m */; };
+		1F61DEA110B098DF00D209BA /* HistoryDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA010B098DF00D209BA /* HistoryDataParser.m */; };
+		1F61DEA410B0995D00D209BA /* WeatherDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA310B0995D00D209BA /* WeatherDataParser.m */; };
+		1F61DF4C10B0D40700D209BA /* WindObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CDE10A3CB9E001D410B /* WindObservation.m */; };
+		1F61DF4D10B0D40700D209BA /* StationDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DE5A10B07DB700D209BA /* StationDataParser.m */; };
+		1F61DF4E10B0D40700D209BA /* HistoryDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA010B098DF00D209BA /* HistoryDataParser.m */; };
+		1F61DF4F10B0D40700D209BA /* WeatherDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA310B0995D00D209BA /* WeatherDataParser.m */; };
+		1F61DF6410B0D46500D209BA /* WindTouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF6110B0D46500D209BA /* WindTouchAppDelegate.m */; };
+		1F61DF6510B0D46500D209BA /* WindTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF6310B0D46500D209BA /* WindTouchViewController.m */; };
+		1F61DF7C10B0D58800D209BA /* libiXmlKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F61DF7B10B0D58800D209BA /* libiXmlKit.a */; };
+		1F61DF8710B0D61100D209BA /* iphone_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF8610B0D61100D209BA /* iphone_main.m */; };
+		1F61DF8B10B0D65A00D209BA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F61DF8A10B0D65A00D209BA /* MainWindow.xib */; };
+		1F61DF8D10B0D66000D209BA /* WindTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F61DF8C10B0D66000D209BA /* WindTouchViewController.xib */; };
+		1F61DF9410B0D73D00D209BA /* WeatherStationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF9310B0D73D00D209BA /* WeatherStationController.m */; };
+		1F61DF9910B0D81E00D209BA /* WeatherStationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF9310B0D73D00D209BA /* WeatherStationController.m */; };
+		1F61E0E010B2267D00D209BA /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */; };
+		1F675D85140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */; };
+		1F675D86140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */; };
+		1F675D87140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */; };
+		1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F675D89140B9259007A62E8 /* CoreText.framework */; };
+		1FB8813A113ADF9D001442B8 /* forecast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FB88139113ADF9D001442B8 /* forecast.xml */; };
+		1FB88190113AE8FE001442B8 /* observation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1FB8818F113AE8FE001442B8 /* observation.xml */; };
+		1FB88210113B044C001442B8 /* WindSampleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8820E113B044C001442B8 /* WindSampleList.h */; };
+		1FB88211113B044C001442B8 /* WindSampleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8820F113B044C001442B8 /* WindSampleList.m */; };
+		1FB88212113B044C001442B8 /* WindSampleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8820F113B044C001442B8 /* WindSampleList.m */; };
+		1FB88213113B044C001442B8 /* WindSampleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8820F113B044C001442B8 /* WindSampleList.m */; };
+		1FB88214113B044C001442B8 /* WindSampleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8820F113B044C001442B8 /* WindSampleList.m */; };
+		1FB88221113B0629001442B8 /* WindSampleListDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB88220113B0629001442B8 /* WindSampleListDrawing.m */; };
+		1FB88222113B0629001442B8 /* WindSampleListDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB88220113B0629001442B8 /* WindSampleListDrawing.m */; };
+		1FB88223113B0629001442B8 /* WindSampleListDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB88220113B0629001442B8 /* WindSampleListDrawing.m */; };
+		1FB88290113B0BE2001442B8 /* DebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8828F113B0BE2001442B8 /* DebugMacros.h */; };
+		1FBA548211448FE000F2B97A /* WindForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA548011448FE000F2B97A /* WindForecastViewController.m */; };
+		1FBA548311448FE000F2B97A /* WindForecastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBA548111448FE000F2B97A /* WindForecastViewController.xib */; };
+		1FBFBE5410B1226300A22595 /* WindHistoryTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBFBE5310B1226300A22595 /* WindHistoryTouchView.m */; };
+		1FBFBF3610B1256C00A22595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3310B1256C00A22595 /* UIKit.framework */; };
+		1FBFBF3710B1256C00A22595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3410B1256C00A22595 /* Foundation.framework */; };
+		1FBFBF3810B1256C00A22595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3510B1256C00A22595 /* CoreGraphics.framework */; };
+		1FC867A9122B8BEF00803DE1 /* WindRoseXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6099E510C0F58A005C588C /* WindRoseXView.m */; };
+		1FDD4F301180AD930085B99B /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD4F2F1180AD930085B99B /* Entitlements.plist */; };
+		1FDE95E9110589A200B319C3 /* ForecastParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */; };
+		1FDE95EA110589A200B319C3 /* ForecastParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */; };
+		1FDE95EB110589A200B319C3 /* ForecastParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */; };
+		1FEC5B2A109E9A2F001D410B /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B28109E9A2F001D410B /* MPWFoundation.framework */; };
+		1FEC5B2B109E9A2F001D410B /* MPWXmlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC5B29109E9A2F001D410B /* MPWXmlKit.framework */; };
+		1FEC5CDF10A3CB9E001D410B /* WindObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CDE10A3CB9E001D410B /* WindObservation.m */; };
+		1FEC5CFF10A3D245001D410B /* WindHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC5CFE10A3D245001D410B /* WindHistoryView.m */; };
+		1FFCDAC8118DCFEF003DBFFC /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFCDAC7118DCFEF003DBFFC /* MainWindow-iPad.xib */; };
+		1FFEE04E1274E43800E082FB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEE04D1274E43800E082FB /* Icon-72.png */; };
+		256AC3DA0F4B6AC300CF3369 /* MusselWindAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* MusselWindAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		1F421EC710C2518A00C403D5 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = org.cocotron.1.0.windows.i386.gcc.default;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		1F421EC810C2518A00C403D5 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F2901C7112C732F00FC6E97 /* WindObservationDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindObservationDrawing.h; sourceTree = "<group>"; };
+		1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindObservationDrawing.m; sourceTree = "<group>"; };
+		1F29FFA9112C72B900FC6E97 /* WindReporting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WindReporting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F29FFAA112C72B900FC6E97 /* WindReporting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WindReporting-Info.plist"; sourceTree = "<group>"; };
+		1F3362061296FCB10079D51D /* MPWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWView.h; sourceTree = "<group>"; };
+		1F3362071296FCB10079D51D /* MPWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPWView.m; sourceTree = "<group>"; };
+		1F3AEC5C11377721003E7F2D /* historyData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = historyData.xml; sourceTree = "<group>"; };
+		1F421EBE10C2513500C403D5 /* MusselWind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusselWind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F421EC410C2513500C403D5 /* MusselWind-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusselWind-Info copy.plist"; sourceTree = "<group>"; };
+		1F421F0B10C2558100C403D5 /* MPWMAXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWMAXParser.h; sourceTree = "<group>"; };
+		1F4FCAA310B910780078E510 /* WindRoseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindRoseView.h; sourceTree = "<group>"; };
+		1F4FCAA410B910780078E510 /* WindRoseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindRoseView.m; sourceTree = "<group>"; };
+		1F5AF82A117F836C0027DE6B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1F6099E410C0F58A005C588C /* WindRoseXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindRoseXView.h; sourceTree = "<group>"; };
+		1F6099E510C0F58A005C588C /* WindRoseXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindRoseXView.m; sourceTree = "<group>"; };
+		1F615FB5126C22A000C96F9B /* libMPWFoundationTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMPWFoundationTouch.a; sourceTree = "<group>"; };
+		1F61A11810F928EA0043BB22 /* LargeImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeImageViewController.h; sourceTree = "<group>"; };
+		1F61A11910F928EA0043BB22 /* LargeImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeImageViewController.m; sourceTree = "<group>"; };
+		1F61A11A10F928EA0043BB22 /* LargeImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LargeImageViewController.xib; sourceTree = "<group>"; };
+		1F61DE5910B07DB700D209BA /* StationDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationDataParser.h; sourceTree = "<group>"; };
+		1F61DE5A10B07DB700D209BA /* StationDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationDataParser.m; sourceTree = "<group>"; };
+		1F61DE9F10B098DF00D209BA /* HistoryDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDataParser.h; sourceTree = "<group>"; };
+		1F61DEA010B098DF00D209BA /* HistoryDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDataParser.m; sourceTree = "<group>"; };
+		1F61DEA210B0995D00D209BA /* WeatherDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDataParser.h; sourceTree = "<group>"; };
+		1F61DEA310B0995D00D209BA /* WeatherDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataParser.m; sourceTree = "<group>"; };
+		1F61DF3C10B0D3DA00D209BA /* Mussel Wind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mussel Wind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F61DF3E10B0D3DA00D209BA /* MusselWind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusselWind-Info.plist"; sourceTree = "<group>"; };
+		1F61DF6010B0D46500D209BA /* WindTouchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindTouchAppDelegate.h; sourceTree = "<group>"; };
+		1F61DF6110B0D46500D209BA /* WindTouchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindTouchAppDelegate.m; sourceTree = "<group>"; };
+		1F61DF6210B0D46500D209BA /* WindTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindTouchViewController.h; sourceTree = "<group>"; };
+		1F61DF6310B0D46500D209BA /* WindTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindTouchViewController.m; sourceTree = "<group>"; };
+		1F61DF6C10B0D50A00D209BA /* AccessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessorMacros.h; sourceTree = "<group>"; };
+		1F61DF7B10B0D58800D209BA /* libiXmlKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiXmlKit.a; sourceTree = "<group>"; };
+		1F61DF8610B0D61100D209BA /* iphone_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iphone_main.m; sourceTree = "<group>"; };
+		1F61DF8A10B0D65A00D209BA /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		1F61DF8C10B0D66000D209BA /* WindTouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindTouchViewController.xib; sourceTree = "<group>"; };
+		1F61DF9210B0D73D00D209BA /* WeatherStationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherStationController.h; sourceTree = "<group>"; };
+		1F61DF9310B0D73D00D209BA /* WeatherStationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherStationController.m; sourceTree = "<group>"; };
+		1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		1F675D83140B905E007A62E8 /* MPWCGDrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWCGDrawingContext.h; sourceTree = "<group>"; };
+		1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPWCGDrawingContext.m; sourceTree = "<group>"; };
+		1F675D88140B9224007A62E8 /* PhoneGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneGeometry.h; sourceTree = "<group>"; };
+		1F675D89140B9259007A62E8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWDrawingContext.h; sourceTree = "<group>"; };
+		1FB88139113ADF9D001442B8 /* forecast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = forecast.xml; sourceTree = "<group>"; };
+		1FB8818F113AE8FE001442B8 /* observation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = observation.xml; sourceTree = "<group>"; };
+		1FB8820E113B044C001442B8 /* WindSampleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindSampleList.h; sourceTree = "<group>"; };
+		1FB8820F113B044C001442B8 /* WindSampleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindSampleList.m; sourceTree = "<group>"; };
+		1FB8821F113B0629001442B8 /* WindSampleListDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindSampleListDrawing.h; sourceTree = "<group>"; };
+		1FB88220113B0629001442B8 /* WindSampleListDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindSampleListDrawing.m; sourceTree = "<group>"; };
+		1FB8828F113B0BE2001442B8 /* DebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugMacros.h; sourceTree = "<group>"; };
+		1FBA547F11448FE000F2B97A /* WindForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindForecastViewController.h; sourceTree = "<group>"; };
+		1FBA548011448FE000F2B97A /* WindForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindForecastViewController.m; sourceTree = "<group>"; };
+		1FBA548111448FE000F2B97A /* WindForecastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindForecastViewController.xib; sourceTree = "<group>"; };
+		1FBFBE5210B1226300A22595 /* WindHistoryTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindHistoryTouchView.h; sourceTree = "<group>"; };
+		1FBFBE5310B1226300A22595 /* WindHistoryTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindHistoryTouchView.m; sourceTree = "<group>"; };
+		1FBFBF3310B1256C00A22595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FBFBF3410B1256C00A22595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FBFBF3510B1256C00A22595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FC867A0122B892D00803DE1 /* CocoaUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaUIKit.h; sourceTree = "<group>"; };
+		1FDD4F2F1180AD930085B99B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1FDE95E7110589A200B319C3 /* ForecastParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastParser.h; sourceTree = "<group>"; };
+		1FDE95E8110589A200B319C3 /* ForecastParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastParser.m; sourceTree = "<group>"; };
+		1FEC5B28109E9A2F001D410B /* MPWFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPWFoundation.framework; path = /Library/Frameworks/MPWFoundation.framework; sourceTree = "<absolute>"; };
+		1FEC5B29109E9A2F001D410B /* MPWXmlKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPWXmlKit.framework; path = /Library/Frameworks/MPWXmlKit.framework; sourceTree = "<absolute>"; };
+		1FEC5CDD10A3CB9E001D410B /* WindObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindObservation.h; sourceTree = "<group>"; };
+		1FEC5CDE10A3CB9E001D410B /* WindObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindObservation.m; sourceTree = "<group>"; };
+		1FEC5CFD10A3D245001D410B /* WindHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindHistoryView.h; sourceTree = "<group>"; };
+		1FEC5CFE10A3D245001D410B /* WindHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindHistoryView.m; sourceTree = "<group>"; };
+		1FFCDAC7118DCFEF003DBFFC /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		1FFEE04D1274E43800E082FB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* MusselWindAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusselWindAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* MusselWindAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusselWindAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* MusselWind_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusselWind_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* MusselWind-Cocoa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MusselWind-Cocoa-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MusselWind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusselWind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F29FFA7112C72B900FC6E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F29FFAE112C72C600FC6E97 /* Foundation.framework in Frameworks */,
+				1F2901BA112C72D900FC6E97 /* MPWFoundation.framework in Frameworks */,
+				1F2901BB112C72D900FC6E97 /* MPWXmlKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F421EB610C2513500C403D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F42211410C255E700C403D5 /* AppKit.framework in Frameworks */,
+				1F42211510C255E700C403D5 /* Foundation.framework in Frameworks */,
+				1F421EB810C2513500C403D5 /* MPWFoundation.framework in Frameworks */,
+				1F421EB910C2513500C403D5 /* MPWXmlKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61DF3A10B0D3DA00D209BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */,
+				1F61DF7C10B0D58800D209BA /* libiXmlKit.a in Frameworks */,
+				1F615FDE126C244800C96F9B /* libMPWFoundationTouch.a in Frameworks */,
+				1FBFBF3610B1256C00A22595 /* UIKit.framework in Frameworks */,
+				1FBFBF3710B1256C00A22595 /* Foundation.framework in Frameworks */,
+				1FBFBF3810B1256C00A22595 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				1FEC5B2A109E9A2F001D410B /* MPWFoundation.framework in Frameworks */,
+				1FEC5B2B109E9A2F001D410B /* MPWXmlKit.framework in Frameworks */,
+				1F61E0E010B2267D00D209BA /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F675D88140B9224007A62E8 /* PhoneGeometry.h */,
+				1F675D83140B905E007A62E8 /* MPWCGDrawingContext.h */,
+				1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */,
+				1FEC5CDD10A3CB9E001D410B /* WindObservation.h */,
+				1FEC5CDE10A3CB9E001D410B /* WindObservation.m */,
+				1F61DE5910B07DB700D209BA /* StationDataParser.h */,
+				1F61DE5A10B07DB700D209BA /* StationDataParser.m */,
+				1F61DE9F10B098DF00D209BA /* HistoryDataParser.h */,
+				1F61DEA010B098DF00D209BA /* HistoryDataParser.m */,
+				1F61DEA210B0995D00D209BA /* WeatherDataParser.h */,
+				1F61DEA310B0995D00D209BA /* WeatherDataParser.m */,
+				1F61DF9210B0D73D00D209BA /* WeatherStationController.h */,
+				1F61DF9310B0D73D00D209BA /* WeatherStationController.m */,
+				1FDE95E7110589A200B319C3 /* ForecastParser.h */,
+				1FDE95E8110589A200B319C3 /* ForecastParser.m */,
+				1F2901C7112C732F00FC6E97 /* WindObservationDrawing.h */,
+				1F2901C8112C732F00FC6E97 /* WindObservationDrawing.m */,
+				1FB8820E113B044C001442B8 /* WindSampleList.h */,
+				1FB8820F113B044C001442B8 /* WindSampleList.m */,
+				1FB8821F113B0629001442B8 /* WindSampleListDrawing.h */,
+				1FB88220113B0629001442B8 /* WindSampleListDrawing.m */,
+				1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */,
+				1F3362061296FCB10079D51D /* MPWView.h */,
+				1F3362071296FCB10079D51D /* MPWView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */,
+				1FEC5B28109E9A2F001D410B /* MPWFoundation.framework */,
+				1FEC5B29109E9A2F001D410B /* MPWXmlKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MusselWind.app */,
+				1F61DF3C10B0D3DA00D209BA /* Mussel Wind.app */,
+				1F421EBE10C2513500C403D5 /* MusselWind.app */,
+				1F29FFA9112C72B900FC6E97 /* WindReporting.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F290564112CA75F00FC6E97 /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestResources;
+			sourceTree = "<group>";
+		};
+		1F4FC88210B8F68E0078E510 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* MusselWindAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* MusselWindAppDelegate.m */,
+				1FEC5CFD10A3D245001D410B /* WindHistoryView.h */,
+				1FEC5CFE10A3D245001D410B /* WindHistoryView.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1F6099E410C0F58A005C588C /* WindRoseXView.h */,
+				1F6099E510C0F58A005C588C /* WindRoseXView.m */,
+				1FC867A0122B892D00803DE1 /* CocoaUIKit.h */,
+			);
+			name = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		1F61DF5210B0D41400D209BA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1FB8828F113B0BE2001442B8 /* DebugMacros.h */,
+				1F421F0B10C2558100C403D5 /* MPWMAXParser.h */,
+				1F61DF6C10B0D50A00D209BA /* AccessorMacros.h */,
+				1F61DF6010B0D46500D209BA /* WindTouchAppDelegate.h */,
+				1F61DF6110B0D46500D209BA /* WindTouchAppDelegate.m */,
+				1F61DF6210B0D46500D209BA /* WindTouchViewController.h */,
+				1F61DF6310B0D46500D209BA /* WindTouchViewController.m */,
+				1F61DF8610B0D61100D209BA /* iphone_main.m */,
+				1F61DF8A10B0D65A00D209BA /* MainWindow.xib */,
+				1F61DF8C10B0D66000D209BA /* WindTouchViewController.xib */,
+				1FBFBE5210B1226300A22595 /* WindHistoryTouchView.h */,
+				1FBFBE5310B1226300A22595 /* WindHistoryTouchView.m */,
+				1F4FCAA310B910780078E510 /* WindRoseView.h */,
+				1F4FCAA410B910780078E510 /* WindRoseView.m */,
+				1F61A11810F928EA0043BB22 /* LargeImageViewController.h */,
+				1F61A11910F928EA0043BB22 /* LargeImageViewController.m */,
+				1F61A11A10F928EA0043BB22 /* LargeImageViewController.xib */,
+				1FBA547F11448FE000F2B97A /* WindForecastViewController.h */,
+				1FBA548011448FE000F2B97A /* WindForecastViewController.m */,
+				1FBA548111448FE000F2B97A /* WindForecastViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		1FBFBE7B10B1251500A22595 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1F615FB5126C22A000C96F9B /* libMPWFoundationTouch.a */,
+				1FBFBF3310B1256C00A22595 /* UIKit.framework */,
+				1FBFBF3410B1256C00A22595 /* Foundation.framework */,
+				1FBFBF3510B1256C00A22595 /* CoreGraphics.framework */,
+				1F61DF7B10B0D58800D209BA /* libiXmlKit.a */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		1FFCDAC6118DCFEF003DBFFC /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1FFCDAC7118DCFEF003DBFFC /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MusselWind */ = {
+			isa = PBXGroup;
+			children = (
+				1F675D89140B9259007A62E8 /* CoreText.framework */,
+				1F4FC88210B8F68E0078E510 /* Mac OS X */,
+				1F61DF5210B0D41400D209BA /* iPhone */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				1FFCDAC6118DCFEF003DBFFC /* Resources-iPad */,
+				1F290564112CA75F00FC6E97 /* TestResources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				1F61DF3E10B0D3DA00D209BA /* MusselWind-Info.plist */,
+				1F29FFAA112C72B900FC6E97 /* WindReporting-Info.plist */,
+				1FDD4F2F1180AD930085B99B /* Entitlements.plist */,
+			);
+			name = MusselWind;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* MusselWind_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FFEE04D1274E43800E082FB /* Icon-72.png */,
+				1F5AF82A117F836C0027DE6B /* Icon.png */,
+				1FB8818F113AE8FE001442B8 /* observation.xml */,
+				1FB88139113ADF9D001442B8 /* forecast.xml */,
+				1F3AEC5C11377721003E7F2D /* historyData.xml */,
+				8D1107310486CEB800E47090 /* MusselWind-Cocoa-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				1F421EC410C2513500C403D5 /* MusselWind-Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBFBE7B10B1251500A22595 /* iPhone */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F29FFA4112C72B900FC6E97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2901CC112C732F00FC6E97 /* WindObservationDrawing.h in Headers */,
+				1FB88210113B044C001442B8 /* WindSampleList.h in Headers */,
+				1FB88290113B0BE2001442B8 /* DebugMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F29FFA8112C72B900FC6E97 /* WindReporting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F29FFAD112C72BA00FC6E97 /* Build configuration list for PBXNativeTarget "WindReporting" */;
+			buildPhases = (
+				1F29FFA4112C72B900FC6E97 /* Headers */,
+				1F29FFA5112C72B900FC6E97 /* Resources */,
+				1F29FFA6112C72B900FC6E97 /* Sources */,
+				1F29FFA7112C72B900FC6E97 /* Frameworks */,
+				1F2901D5112C73AE00FC6E97 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindReporting;
+			productName = WindReporting;
+			productReference = 1F29FFA9112C72B900FC6E97 /* WindReporting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F421EA810C2513500C403D5 /* MusselWind (Windows) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F421EBB10C2513500C403D5 /* Build configuration list for PBXNativeTarget "MusselWind (Windows)" */;
+			buildPhases = (
+				1F421EA910C2513500C403D5 /* Resources */,
+				1F421EAC10C2513500C403D5 /* Sources */,
+				1F421EB610C2513500C403D5 /* Frameworks */,
+				1F421ECC10C251A200C403D5 /* ShellScript */,
+			);
+			buildRules = (
+				1F421EC710C2518A00C403D5 /* PBXBuildRule */,
+				1F421EC810C2518A00C403D5 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "MusselWind (Windows)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = MusselWind;
+			productReference = 1F421EBE10C2513500C403D5 /* MusselWind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F61DF3B10B0D3DA00D209BA /* MusselWind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F61DF4110B0D3DB00D209BA /* Build configuration list for PBXNativeTarget "MusselWind" */;
+			buildPhases = (
+				1F61DF3810B0D3DA00D209BA /* Resources */,
+				1F61DF3910B0D3DA00D209BA /* Sources */,
+				1F61DF3A10B0D3DA00D209BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusselWind;
+			productName = WindTouch;
+			productReference = 1F61DF3C10B0D3DA00D209BA /* Mussel Wind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* MusselWind (Cocoa) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MusselWind (Cocoa)" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusselWind (Cocoa)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = MusselWind;
+			productReference = 8D1107320486CEB800E47090 /* MusselWind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MusselWind" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MusselWind */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MusselWind (Cocoa) */,
+				1F61DF3B10B0D3DA00D209BA /* MusselWind */,
+				1F421EA810C2513500C403D5 /* MusselWind (Windows) */,
+				1F29FFA8112C72B900FC6E97 /* WindReporting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F29FFA5112C72B900FC6E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3AEC5D11377721003E7F2D /* historyData.xml in Resources */,
+				1FB8813A113ADF9D001442B8 /* forecast.xml in Resources */,
+				1FB88190113AE8FE001442B8 /* observation.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F421EA910C2513500C403D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F421EAA10C2513500C403D5 /* InfoPlist.strings in Resources */,
+				1F421EAB10C2513500C403D5 /* MainMenu.xib in Resources */,
+				1F5AF82D117F836C0027DE6B /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61DF3810B0D3DA00D209BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61DF8B10B0D65A00D209BA /* MainWindow.xib in Resources */,
+				1F61DF8D10B0D66000D209BA /* WindTouchViewController.xib in Resources */,
+				1F61A11C10F928EA0043BB22 /* LargeImageViewController.xib in Resources */,
+				1FBA548311448FE000F2B97A /* WindForecastViewController.xib in Resources */,
+				1F5AF82B117F836C0027DE6B /* Icon.png in Resources */,
+				1FFCDAC8118DCFEF003DBFFC /* MainWindow-iPad.xib in Resources */,
+				1FFEE04E1274E43800E082FB /* Icon-72.png in Resources */,
+				1FDD4F301180AD930085B99B /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				1F5AF82C117F836C0027DE6B /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F2901D5112C73AE00FC6E97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/testlogger ${BUILT_PRODUCTS_DIR}/WindReporting.framework\n";
+			showEnvVarsInLog = 0;
+		};
+		1F421ECC10C251A200C403D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Developer/Cocotron/1.0/bin/retargetBundle -framework Foundation -framework AppKit -framework MPWXmlKit -framework MPWFoundation -destination \"$TARGET_BUILD_DIR\"/\"$EXECUTABLE_FOLDER_PATH\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F29FFA6112C72B900FC6E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2901BC112C72FC00FC6E97 /* WindObservation.m in Sources */,
+				1F2901BE112C72FC00FC6E97 /* StationDataParser.m in Sources */,
+				1F2901C0112C72FC00FC6E97 /* HistoryDataParser.m in Sources */,
+				1F2901C2112C72FC00FC6E97 /* WeatherDataParser.m in Sources */,
+				1F2901C6112C72FC00FC6E97 /* ForecastParser.m in Sources */,
+				1FB88211113B044C001442B8 /* WindSampleList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F421EAC10C2513500C403D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F421EAD10C2513500C403D5 /* main.m in Sources */,
+				1F421EAE10C2513500C403D5 /* MusselWindAppDelegate.m in Sources */,
+				1F421EAF10C2513500C403D5 /* WindObservation.m in Sources */,
+				1F421EB010C2513500C403D5 /* WindHistoryView.m in Sources */,
+				1F421EB110C2513500C403D5 /* StationDataParser.m in Sources */,
+				1F421EB210C2513500C403D5 /* HistoryDataParser.m in Sources */,
+				1F421EB310C2513500C403D5 /* WeatherDataParser.m in Sources */,
+				1F421EB410C2513500C403D5 /* WeatherStationController.m in Sources */,
+				1F421EB510C2513500C403D5 /* WindRoseXView.m in Sources */,
+				1FDE95EA110589A200B319C3 /* ForecastParser.m in Sources */,
+				1F2901CB112C732F00FC6E97 /* WindObservationDrawing.m in Sources */,
+				1FB88212113B044C001442B8 /* WindSampleList.m in Sources */,
+				1FB88223113B0629001442B8 /* WindSampleListDrawing.m in Sources */,
+				1F675D87140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F61DF3910B0D3DA00D209BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F61DF4C10B0D40700D209BA /* WindObservation.m in Sources */,
+				1F61DF4D10B0D40700D209BA /* StationDataParser.m in Sources */,
+				1F61DF4E10B0D40700D209BA /* HistoryDataParser.m in Sources */,
+				1F61DF4F10B0D40700D209BA /* WeatherDataParser.m in Sources */,
+				1F61DF6410B0D46500D209BA /* WindTouchAppDelegate.m in Sources */,
+				1F61DF6510B0D46500D209BA /* WindTouchViewController.m in Sources */,
+				1F61DF8710B0D61100D209BA /* iphone_main.m in Sources */,
+				1F61DF9410B0D73D00D209BA /* WeatherStationController.m in Sources */,
+				1FBFBE5410B1226300A22595 /* WindHistoryTouchView.m in Sources */,
+				1F4FCAA510B910780078E510 /* WindRoseView.m in Sources */,
+				1F61A11B10F928EA0043BB22 /* LargeImageViewController.m in Sources */,
+				1FDE95E9110589A200B319C3 /* ForecastParser.m in Sources */,
+				1F2901CA112C732F00FC6E97 /* WindObservationDrawing.m in Sources */,
+				1FB88213113B044C001442B8 /* WindSampleList.m in Sources */,
+				1FB88221113B0629001442B8 /* WindSampleListDrawing.m in Sources */,
+				1FBA548211448FE000F2B97A /* WindForecastViewController.m in Sources */,
+				1F3362081296FCB10079D51D /* MPWView.m in Sources */,
+				1F675D86140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* MusselWindAppDelegate.m in Sources */,
+				1FEC5CDF10A3CB9E001D410B /* WindObservation.m in Sources */,
+				1FEC5CFF10A3D245001D410B /* WindHistoryView.m in Sources */,
+				1F61DE5B10B07DB700D209BA /* StationDataParser.m in Sources */,
+				1F61DEA110B098DF00D209BA /* HistoryDataParser.m in Sources */,
+				1F61DEA410B0995D00D209BA /* WeatherDataParser.m in Sources */,
+				1F61DF9910B0D81E00D209BA /* WeatherStationController.m in Sources */,
+				1FDE95EB110589A200B319C3 /* ForecastParser.m in Sources */,
+				1F2901C9112C732F00FC6E97 /* WindObservationDrawing.m in Sources */,
+				1FB88214113B044C001442B8 /* WindSampleList.m in Sources */,
+				1FB88222113B0629001442B8 /* WindSampleListDrawing.m in Sources */,
+				1FC867A9122B8BEF00803DE1 /* WindRoseXView.m in Sources */,
+				1F3362091296FCB10079D51D /* MPWView.m in Sources */,
+				1F675D85140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F29FFAB112C72BA00FC6E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "WindReporting-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WindReporting;
+			};
+			name = Debug;
+		};
+		1F29FFAC112C72BA00FC6E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Foundation.framework/Headers/Foundation.h";
+				INFOPLIST_FILE = "WindReporting-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WindReporting;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1F421EBC10C2513500C403D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Windows";
+				EXECUTABLE_SUFFIX = .exe;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Developer/Cocotron/1.0/Windows/i386/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../programming/Build/Release\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MusselWind_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MusselWind-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-Wl,--enable-auto-import",
+					"-all_load",
+					"-mwindows",
+					"-t",
+					"-mconsole",
+				);
+				PRODUCT_NAME = MusselWind;
+				SDKROOT = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F421EBD10C2513500C403D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Windows";
+				EXECUTABLE_SUFFIX = .exe;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Developer/Cocotron/1.0/Windows/i386/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../programming/Build/Release\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MusselWind_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MusselWind-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-Wl,--enable-auto-import",
+					"-all_load",
+					"-mwindows",
+					"-t",
+					"-mconsole",
+				);
+				PRODUCT_NAME = MusselWind;
+				SDKROOT = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F61DF3F10B0D3DB00D209BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "MusselWind-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Mussel Wind";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "i386 armv7 armv6";
+			};
+			name = Debug;
+		};
+		1F61DF4010B0D3DB00D209BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MusselWind-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Mussel Wind";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "i386 armv7 armv6";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1FFEE0151274D6FD00E082FB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+			};
+			name = AppStore;
+		};
+		1FFEE0161274D6FD00E082FB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MusselWind_Prefix.pch;
+				INFOPLIST_FILE = "MusselWind-Cocoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MusselWind;
+			};
+			name = AppStore;
+		};
+		1FFEE0171274D6FD00E082FB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: metaobject ltd";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MusselWind-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Mussel Wind";
+				PROVISIONING_PROFILE = "A95100BA-50E0-477A-A022-3DF61717C931";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "i386 armv7 armv6";
+				ZERO_LINK = NO;
+			};
+			name = AppStore;
+		};
+		1FFEE0181274D6FD00E082FB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EXECUTABLE_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Windows";
+				EXECUTABLE_SUFFIX = .exe;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Developer/Cocotron/1.0/Windows/i386/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../programming/Build/Release\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MusselWind_Prefix.pch;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MusselWind-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-Wl,--enable-auto-import",
+					"-all_load",
+					"-mwindows",
+					"-t",
+					"-mconsole",
+				);
+				PRODUCT_NAME = MusselWind;
+				SDKROOT = "";
+				SKIP_INSTALL = YES;
+			};
+			name = AppStore;
+		};
+		1FFEE0191274D6FD00E082FB /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Foundation.framework/Headers/Foundation.h";
+				INFOPLIST_FILE = "WindReporting-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WindReporting;
+				ZERO_LINK = NO;
+			};
+			name = AppStore;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "MusselWind-Cocoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MusselWind;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "MusselWind-Cocoa-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MusselWind;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Marcel Weiher";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F29FFAD112C72BA00FC6E97 /* Build configuration list for PBXNativeTarget "WindReporting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F29FFAB112C72BA00FC6E97 /* Debug */,
+				1F29FFAC112C72BA00FC6E97 /* Release */,
+				1FFEE0191274D6FD00E082FB /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F421EBB10C2513500C403D5 /* Build configuration list for PBXNativeTarget "MusselWind (Windows)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F421EBC10C2513500C403D5 /* Debug */,
+				1F421EBD10C2513500C403D5 /* Release */,
+				1FFEE0181274D6FD00E082FB /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F61DF4110B0D3DB00D209BA /* Build configuration list for PBXNativeTarget "MusselWind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F61DF3F10B0D3DB00D209BA /* Debug */,
+				1F61DF4010B0D3DB00D209BA /* Release */,
+				1FFEE0171274D6FD00E082FB /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MusselWind (Cocoa)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+				1FFEE0161274D6FD00E082FB /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MusselWind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				1FFEE0151274D6FD00E082FB /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
