@@ -24,16 +24,16 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 	NSLog(@"will setImageView %@",imageView);
 
 }
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-       // Custom initialization
-    }
-    return self;
+
+-(void)awakeFromNib
+{
+    NSLog(@"awakeFromNib");
+    [super awakeFromNib];
 }
 
 -(void)updateWeather
 {
+    NSLog(@"updateWeather");
 	[weatherStation setImageView:imageView];
 	[weatherStation setWindCurrent:current];
 	[weatherStation setWindHistory:history];

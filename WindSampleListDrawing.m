@@ -8,7 +8,7 @@
 
 #import "WindSampleListDrawing.h"
 #import "WindObservationDrawing.h"
-#import "MPWDrawingContext.h"
+#import <DrawingContext/MPWDrawingContext.h>
 #import <CoreText/CoreText.h>
 
 @implementation WindSampleList(Drawing)
@@ -26,22 +26,22 @@
 {	
 	int numHorizontalSegments =5;
 	float segmentHeight = rect.size.height/numHorizontalSegments;
-	[[[context setFillColorGray:1.0 alpha:0.2] rect:rect] fill];
+	[[[context setFillColorGray:1.0 alpha:0.2] nsrect:rect] fill];
 	
-	[context setFillColorRed:1.0 green:1.0 blue:0.9 alpha:0.2];
-	[[context rect:NSMakeRect(0, 20+0.5, totalRect.size.width, segmentHeight)] fill];
+    [context setFillColor:[context colorRed:1.0 green:1.0 blue:0.9 alpha:0.2]];
+	[[context nsrect:NSMakeRect(0, 20+0.5, totalRect.size.width, segmentHeight)] fill];
 
 	[context setFillColorGray:0 alpha:1];
 	for (int i=start; i< stop; i++ ) {		
-		[[context rect:NSMakeRect(0, round(i*segmentHeight)+0.5, totalRect.size.width, 0.5)] fill];
+		[[context nsrect:NSMakeRect(0, round(i*segmentHeight)+0.5, totalRect.size.width, 0.5)] fill];
 	}	
 	[context setFillColorGray:0.2 alpha:0.4];
 	verticalSegments--;
 	for (int i=1; i< verticalSegments; i++ ) {
-		[[context rect:NSMakeRect(round(i*totalRect.size.width/verticalSegments)  ,0,0.3, totalRect.size.height )] fill];
+		[[context nsrect:NSMakeRect(round(i*totalRect.size.width/verticalSegments)  ,0,0.3, totalRect.size.height )] fill];
 	}
 	[context setFillColorGray:0 alpha:1];
-	[context rect:rect];
+	[context nsrect:rect];
 	[context stroke];
 }
 
@@ -64,7 +64,7 @@
 		points[i].y=round([[self objectAtIndex:i] speed]*yScale)+0.5;
 	}
 	
-	[context setFillColorRed:0 green:0 blue:1 alpha:1];
+    [context setFillColor:[context colorRed:0 green:0 blue:1 alpha:1]];
 	
 	[context moveto:points[0].x :points[0].y];
 	for (int i=0;i<[self  count]; i++ ) {
@@ -83,11 +83,11 @@
 	}
 
 #if TARGET_OS_IPHONE
-	[context setFillColorRed:0 green:0 blue:0 alpha:1];
+    [context setFillColor:[context colorRed:0 green:0 blue:0 alpha:1]];
 	if ( labelSamples ) 
 	{
 		UIFont *labelFont=[UIFont systemFontOfSize:9];
-        [context setFontName:[labelFont fontName] size:[labelFont pointSize]];
+        [context setFont:[context fontWithName:[labelFont fontName] size:[labelFont pointSize]]];
         CTFontRef font=CTFontCreateWithName((CFStringRef)labelFont.fontName, 
                                             labelFont.pointSize, 
                                             NULL);
@@ -129,17 +129,17 @@
 	//	NSLog(@"+drawWindRoseInRect");
 	[context setFillColorGray:0 alpha:1];
 
-	[context arcWithCenter:center radius:maxRadius radiansStart:0 radiansStop:M_PI *2  clockwise:NO];
+	[context arcWithCenter:center radius:maxRadius startDegrees:0 endDegrees:360  clockwise:NO];
 	[context clip];
-	[context arcWithCenter:center radius:maxRadius radiansStart:0 radiansStop:M_PI *2  clockwise:NO];
+	[context arcWithCenter:center radius:maxRadius startDegrees:0 endDegrees:360 clockwise:NO];
 	[context fill];
 	[context setlinewidth:1];
-	[context setStrokeColorRed:0.2 green:0.9 blue:0.4 alpha:1.0];
+    [context setStrokeColor:[context colorRed:0.2 green:0.9 blue:0.4 alpha:1.0]];
 	
 	center.x+=0.5;
 	center.y+=0.5;
 	for ( int i=start; i <= stop;i ++ ) {
-		[context arcWithCenter:center radius:i*maxRadius/4 radiansStart:0 radiansStop:M_PI *2 clockwise:NO];
+		[context arcWithCenter:center radius:i*maxRadius/4 startDegrees:0 endDegrees:360 clockwise:NO];
 		[context stroke];
 	}
 }
@@ -153,8 +153,8 @@
 {
 	[context moveto:center.x :center.y];
 	[context arcWithCenter:center radius:[observation speed] * maxRadius / 20
-			  radiansStart:[observation radiansForDrawing] + 0.1
-			   radiansStop:[observation radiansForDrawing] - 0.1 clockwise:YES];
+			  startDegrees:[observation radiansForDrawing] + 0.1
+			   endDegrees:[observation radiansForDrawing] - 0.1 clockwise:YES];
 	[observation setHueWithAlpha:.9];
 	[[context closepath] fill];
 }
@@ -176,15 +176,15 @@
 	for ( int i =0 ; i< MIN(highlightIndex+1,[self count]); i++) {
 		WindObservation *observation =[self objectAtIndex:i];
 		[context arcWithCenter:center radius: MIN([observation speed],25) * maxRadius / 20
-				  radiansStart:[observation radiansForDrawing] + 0.06 radiansStop:[observation radiansForDrawing] - 0.06
+				  startDegrees:[observation radiansForDrawing] + 0.06 endDegrees:[observation radiansForDrawing] - 0.06
 					 clockwise:YES];
-		[context setStrokeColorRed:0.2 green:0.3 blue:0.9 alpha:.2 + ((float)i)/[self count] * .4];
+        [context setStrokeColor:[context colorRed:0.2 green:0.3 blue:0.9 alpha:.2 + ((float)i)/[self count] * .4]];
 		[observation setHueWithAlpha:.2 + ((float)i)/[self count] * .7];
 		[context stroke];
 	}
 		
 	[context grestore];
-	[context setStrokeColorRed:1.0 green:0.3 blue:0.2 alpha:0.6];
+	[context setStrokeColor:[context colorRed:1.0 green:0.3 blue:0.2 alpha:0.6]];
 	if ( highlightIndex >= 0 && highlightIndex < [self count] ) {
 		[self drawObservation:[self objectAtIndex:highlightIndex] inWindRoseAt:center radius:maxRadius context:context];
 	}

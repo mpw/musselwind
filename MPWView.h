@@ -18,7 +18,7 @@
 #error unsupported platform 
 #endif
 
-#import "MPWDrawingContext.h"
+#import <DrawingContext/MPWDrawingContext.h>
 
 
 @interface MPWView : VIEW_SUPERCLASS {

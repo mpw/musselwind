@@ -76,7 +76,7 @@ objectAccessor( NSArray, labels, _setLabels )
 	[WindSampleList drawBackgroundInRect:[self bounds] dirtyRect:rect context:context numSubdivisions:[self numSubdivisions]];
 	NSRect clipRect=CGRectInset([self bounds], 1, 1);
 	
-	[[context rect:clipRect] clip];
+	[[context nsrect:clipRect] clip];
 	[context setFillColorGray:0 alpha:1];
 	if ( [self labels] ) {
 		UIFont *labelFont = [UIFont systemFontOfSize:8];
@@ -98,8 +98,8 @@ objectAccessor( NSArray, labels, _setLabels )
 //	NSLog(@"will draw observations with %d elements",[[self history] count]);
 	[[self history] drawInRect:[self bounds] dirtyRect:rect context:context];
 //	NSLog(@"did draw observations with %d elements",[[self history] count]);
-	CGFloat lengths[]={ 5.0,2.0 };
-	[[context setdashpattern:lengths length:2 phase:0] setlinewidth:2];
+	NSArray *lengths=@[ @5.0, @2.0 ];
+	[[context setdashpattern:lengths  phase:0] setlinewidth:2];
 	[[self forecast] drawInRect:[self bounds] dirtyRect:rect context:context labelSamples:YES ];
 	
 }

@@ -20,6 +20,13 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.2</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.healthcare-fitness</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>NSMainNibFile~ipad</key>

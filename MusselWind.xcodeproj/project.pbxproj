@@ -41,7 +41,6 @@
 		1F5AF82B117F836C0027DE6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AF82A117F836C0027DE6B /* Icon.png */; };
 		1F5AF82C117F836C0027DE6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AF82A117F836C0027DE6B /* Icon.png */; };
 		1F5AF82D117F836C0027DE6B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AF82A117F836C0027DE6B /* Icon.png */; };
-		1F615FDE126C244800C96F9B /* libMPWFoundationTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F615FB5126C22A000C96F9B /* libMPWFoundationTouch.a */; };
 		1F61A11B10F928EA0043BB22 /* LargeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61A11910F928EA0043BB22 /* LargeImageViewController.m */; };
 		1F61A11C10F928EA0043BB22 /* LargeImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F61A11A10F928EA0043BB22 /* LargeImageViewController.xib */; };
 		1F61DE5B10B07DB700D209BA /* StationDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DE5A10B07DB700D209BA /* StationDataParser.m */; };
@@ -53,17 +52,15 @@
 		1F61DF4F10B0D40700D209BA /* WeatherDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DEA310B0995D00D209BA /* WeatherDataParser.m */; };
 		1F61DF6410B0D46500D209BA /* WindTouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF6110B0D46500D209BA /* WindTouchAppDelegate.m */; };
 		1F61DF6510B0D46500D209BA /* WindTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF6310B0D46500D209BA /* WindTouchViewController.m */; };
-		1F61DF7C10B0D58800D209BA /* libiXmlKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F61DF7B10B0D58800D209BA /* libiXmlKit.a */; };
 		1F61DF8710B0D61100D209BA /* iphone_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF8610B0D61100D209BA /* iphone_main.m */; };
 		1F61DF8B10B0D65A00D209BA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F61DF8A10B0D65A00D209BA /* MainWindow.xib */; };
 		1F61DF8D10B0D66000D209BA /* WindTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F61DF8C10B0D66000D209BA /* WindTouchViewController.xib */; };
 		1F61DF9410B0D73D00D209BA /* WeatherStationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF9310B0D73D00D209BA /* WeatherStationController.m */; };
 		1F61DF9910B0D81E00D209BA /* WeatherStationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61DF9310B0D73D00D209BA /* WeatherStationController.m */; };
 		1F61E0E010B2267D00D209BA /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */; };
-		1F675D85140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */; };
-		1F675D86140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */; };
-		1F675D87140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */; };
 		1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F675D89140B9259007A62E8 /* CoreText.framework */; };
+		1F69F7D21FD05AE100BF0945 /* DrawingContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */; };
+		1F69F7D41FD1947F00BF0945 /* DrawingContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */; };
 		1F99BA2A1753B29A005B6846 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BA291753B29A005B6846 /* Default-568h@2x.png */; };
 		1F99BA2C1753B552005B6846 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BA2B1753B552005B6846 /* Default@2x.png */; };
 		1F99BA2E1753BB97005B6846 /* ObjectiveXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */; };
@@ -84,6 +81,8 @@
 		1FBFBF3610B1256C00A22595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3310B1256C00A22595 /* UIKit.framework */; };
 		1FBFBF3710B1256C00A22595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3410B1256C00A22595 /* Foundation.framework */; };
 		1FBFBF3810B1256C00A22595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3510B1256C00A22595 /* CoreGraphics.framework */; };
+		1FC45D7F1ED40BF90068DF0F /* ObjectiveXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC45D7E1ED40BF90068DF0F /* ObjectiveXML.framework */; };
+		1FC45D811ED40C000068DF0F /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC45D801ED40C000068DF0F /* MPWFoundation.framework */; };
 		1FC867A9122B8BEF00803DE1 /* WindRoseXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6099E510C0F58A005C588C /* WindRoseXView.m */; };
 		1FDD4F301180AD930085B99B /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD4F2F1180AD930085B99B /* Entitlements.plist */; };
 		1FDE95E9110589A200B319C3 /* ForecastParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */; };
@@ -161,14 +160,11 @@
 		1F61DF9210B0D73D00D209BA /* WeatherStationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherStationController.h; sourceTree = "<group>"; };
 		1F61DF9310B0D73D00D209BA /* WeatherStationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherStationController.m; sourceTree = "<group>"; };
 		1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
-		1F675D83140B905E007A62E8 /* MPWCGDrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWCGDrawingContext.h; sourceTree = "<group>"; };
-		1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPWCGDrawingContext.m; sourceTree = "<group>"; };
-		1F675D88140B9224007A62E8 /* PhoneGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneGeometry.h; sourceTree = "<group>"; };
 		1F675D89140B9259007A62E8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DrawingContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F99BA291753B29A005B6846 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1F99BA2B1753B552005B6846 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveXML.framework; path = ../../Build/Development/ObjectiveXML.framework; sourceTree = "<group>"; };
-		1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPWDrawingContext.h; sourceTree = "<group>"; };
 		1FB88139113ADF9D001442B8 /* forecast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = forecast.xml; sourceTree = "<group>"; };
 		1FB8818F113AE8FE001442B8 /* observation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = observation.xml; sourceTree = "<group>"; };
 		1FB8820E113B044C001442B8 /* WindSampleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindSampleList.h; sourceTree = "<group>"; };
@@ -184,6 +180,9 @@
 		1FBFBF3310B1256C00A22595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FBFBF3410B1256C00A22595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FBFBF3510B1256C00A22595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FC45D7E1ED40BF90068DF0F /* ObjectiveXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveXML.framework; path = "../../Build/Release-iphoneos/ObjectiveXML.framework"; sourceTree = "<group>"; };
+		1FC45D801ED40C000068DF0F /* MPWFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPWFoundation.framework; path = "../../Build/Release-iphonesimulator/MPWFoundation.framework"; sourceTree = "<group>"; };
+		1FC45D851ED40EC00068DF0F /* DrawingContextiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DrawingContextiOS.framework; path = "../../Build/Release-iphoneos/DrawingContextiOS.framework"; sourceTree = "<group>"; };
 		1FC867A0122B892D00803DE1 /* CocoaUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaUIKit.h; sourceTree = "<group>"; };
 		1FDD4F2F1180AD930085B99B /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		1FDE95E7110589A200B319C3 /* ForecastParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastParser.h; sourceTree = "<group>"; };
@@ -232,9 +231,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F69F7D41FD1947F00BF0945 /* DrawingContext.framework in Frameworks */,
+				1FC45D811ED40C000068DF0F /* MPWFoundation.framework in Frameworks */,
+				1FC45D7F1ED40BF90068DF0F /* ObjectiveXML.framework in Frameworks */,
 				1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */,
-				1F61DF7C10B0D58800D209BA /* libiXmlKit.a in Frameworks */,
-				1F615FDE126C244800C96F9B /* libMPWFoundationTouch.a in Frameworks */,
 				1FBFBF3610B1256C00A22595 /* UIKit.framework in Frameworks */,
 				1FBFBF3710B1256C00A22595 /* Foundation.framework in Frameworks */,
 				1FBFBF3810B1256C00A22595 /* CoreGraphics.framework in Frameworks */,
@@ -245,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F69F7D21FD05AE100BF0945 /* DrawingContext.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				1FEC5B2A109E9A2F001D410B /* MPWFoundation.framework in Frameworks */,
 				1FEC5B2B109E9A2F001D410B /* MPWXmlKit.framework in Frameworks */,
@@ -258,9 +259,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1F675D88140B9224007A62E8 /* PhoneGeometry.h */,
-				1F675D83140B905E007A62E8 /* MPWCGDrawingContext.h */,
-				1F675D84140B905F007A62E8 /* MPWCGDrawingContext.m */,
 				1FEC5CDD10A3CB9E001D410B /* WindObservation.h */,
 				1FEC5CDE10A3CB9E001D410B /* WindObservation.m */,
 				1F61DE5910B07DB700D209BA /* StationDataParser.h */,
@@ -279,7 +277,6 @@
 				1FB8820F113B044C001442B8 /* WindSampleList.m */,
 				1FB8821F113B0629001442B8 /* WindSampleListDrawing.h */,
 				1FB88220113B0629001442B8 /* WindSampleListDrawing.m */,
-				1FB48C0212961B4D00CA4DDE /* MPWDrawingContext.h */,
 				1F3362061296FCB10079D51D /* MPWView.h */,
 				1F3362071296FCB10079D51D /* MPWView.m */,
 			);
@@ -436,6 +433,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */,
+				1FC45D851ED40EC00068DF0F /* DrawingContextiOS.framework */,
+				1FC45D801ED40C000068DF0F /* MPWFoundation.framework */,
+				1FC45D7E1ED40BF90068DF0F /* ObjectiveXML.framework */,
 				1FBFBE7B10B1251500A22595 /* iPhone */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
@@ -539,6 +540,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MusselWind" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -672,7 +675,6 @@
 				1F2901CB112C732F00FC6E97 /* WindObservationDrawing.m in Sources */,
 				1FB88212113B044C001442B8 /* WindSampleList.m in Sources */,
 				1FB88223113B0629001442B8 /* WindSampleListDrawing.m in Sources */,
-				1F675D87140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,7 +699,6 @@
 				1FB88221113B0629001442B8 /* WindSampleListDrawing.m in Sources */,
 				1FBA548211448FE000F2B97A /* WindForecastViewController.m in Sources */,
 				1F3362081296FCB10079D51D /* MPWView.m in Sources */,
-				1F675D86140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,7 +720,6 @@
 				1FB88222113B0629001442B8 /* WindSampleListDrawing.m in Sources */,
 				1FC867A9122B8BEF00803DE1 /* WindRoseXView.m in Sources */,
 				1F3362091296FCB10079D51D /* MPWView.m in Sources */,
-				1F675D85140B905F007A62E8 /* MPWCGDrawingContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,9 +887,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -898,7 +896,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "MusselWind-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -914,7 +912,7 @@
 				PRODUCT_NAME = "Mussel Wind";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "i386 armv7 armv6";
+				VALID_ARCHS = "i386 armv7 arm64 x86";
 			};
 			name = Debug;
 		};
@@ -922,9 +920,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -938,7 +934,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MusselWind-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -955,7 +951,7 @@
 				PRODUCT_NAME = "Mussel Wind";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "i386 armv7 armv6";
+				VALID_ARCHS = "i386 armv7 arm64 x86";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -991,9 +987,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: metaobject ltd";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1007,7 +1001,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MusselWind-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1025,7 +1019,7 @@
 				PROVISIONING_PROFILE = "A95100BA-50E0-477A-A022-3DF61717C931";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "i386 armv7 armv6";
+				VALID_ARCHS = "i386 armv7 arm64 x86";
 				ZERO_LINK = NO;
 			};
 			name = AppStore;

@@ -7,7 +7,7 @@
 //
 
 #import "MPWView.h"
-#import "MPWCGDrawingContext.h"
+#import <DrawingContext/MPWCGDrawingContext.h>
 
 @implementation MPWView
 

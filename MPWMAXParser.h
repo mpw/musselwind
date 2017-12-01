@@ -57,6 +57,10 @@ extern NSString *MPWXMLPCDataKey;
 @class MPWXMLAttributes,MPWObjectCache;
 
 #endif
+
+typedef id (*XMLIMP)(id, SEL, ...);
+
+
 @interface MPWMAXParser : NSObject   {
 	id						data;
 	id						scanner;
@@ -64,15 +68,11 @@ extern NSString *MPWXMLPCDataKey;
 
     id						dataCache;
 	MPWObjectCache			*attributeCache;
-    IMP						getData,initDataBytesLength;
-#if WINDOWS
-    void			*_elementStack;
-#else
-    __strong void			*_elementStack;
-#endif
+    XMLIMP					getData,initDataBytesLength;
+    void                    *_elementStack;
     NSInteger				tagStackLen,tagStackCapacity,maxDepthAllowed;
-    IMP						beginElement,endElement,characterDataAllowed;
-	IMP						characters,cdata,uniqueTagForCString;
+    XMLIMP					beginElement,endElement,characterDataAllowed;
+	XMLIMP					characters,cdata,uniqueTagForCString;
 	MPWXMLAttributes*		_attributes;
 
 	NSMutableDictionary*	namespacePrefixToURIMap;
