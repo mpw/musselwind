@@ -13,6 +13,7 @@
 #import "HistoryDataParser.h"
 #import "ForecastParser.h"
 #import "WindSampleList.h"
+#import <MPWFoundation/MPWFoundation.h>
 
 @implementation WeatherStationController
 
@@ -131,7 +132,7 @@ objectAccessor( WindSampleList,forecast , setForecast )
 
 -(void)showHistoryInWindRose:aHistory
 {
-	int historyCount = [aHistory count];
+	int historyCount = (int)[aHistory count];
 	if ( historyCount > 3 ) {
 		int historyStart=MAX(0,historyCount-[self numObservationsInWindRose]);
 //		NSLog(@"update windRose");

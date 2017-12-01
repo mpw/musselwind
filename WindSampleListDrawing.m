@@ -176,7 +176,7 @@
 	for ( int i =0 ; i< MIN(highlightIndex+1,[self count]); i++) {
 		WindObservation *observation =[self objectAtIndex:i];
 		[context arcWithCenter:center radius: MIN([observation speed],25) * maxRadius / 20
-				  startDegrees:[observation radiansForDrawing] + 0.06 endDegrees:[observation radiansForDrawing] - 0.06
+				  startDegrees:[observation degreesForDrawing] + 5 endDegrees:[observation degreesForDrawing] - 5
 					 clockwise:YES];
         [context setStrokeColor:[context colorRed:0.2 green:0.3 blue:0.9 alpha:.2 + ((float)i)/[self count] * .4]];
 		[observation setHueWithAlpha:.2 + ((float)i)/[self count] * .7];

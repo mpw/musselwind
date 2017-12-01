@@ -14,5 +14,6 @@
 
 -(void)setHueWithAlpha:(float)alpha;
 -(float)radiansForDrawing;
+-(float)degreesForDrawing;
 
 @end

@@ -35,7 +35,12 @@
 
 -(float)radiansForDrawing
 {
-	return	(90-[self direction]) * M_PI / 180;
+    return    (90-[self direction]) * M_PI / 180;
+}
+
+-(float)degreesForDrawing
+{
+    return 90-[self direction];
 }
 
 
