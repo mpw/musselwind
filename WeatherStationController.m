@@ -88,7 +88,7 @@ objectAccessor( WindSampleList,forecast , setForecast )
 	[image addRepresentation:bitmap];
 	NSLog(@"got image: %@",image);
 #endif	
-    [imageView setImage:image];
+    [[imageView onMainThread] setImage:image];
 }
 
 -(void)updateImage
@@ -237,6 +237,15 @@ objectAccessor( WindSampleList,forecast , setForecast )
 	[self performSelectorInBackground:@selector(loadForecast) withObject:nil];
 }
 
+-(void)updateUIWithWeatherData:(WindObservation *)weatherData
+{
+    [windCurrent setHistory:[self filteredTotalHistory]];
+    [self showHistoryInWindRose:[self totalHistory]];
+    [direction setIntValue:[weatherData direction]];
+    [speed setFloatValue:[weatherData speed]];
+    [gust setFloatValue:[weatherData gust]];
+}
+
 -(void)loadMostRecentWeatherData
 {
 //	NSLog(@"loadMostRecentWeatherData");
@@ -251,19 +260,8 @@ objectAccessor( WindSampleList,forecast , setForecast )
 	if ( weatherData ) {
 		[[self observations] setMaxDate:[weatherData date]];
 		[[self observations] addSample:weatherData];
-//		NSLog(@"observation: %@ lastObject: %@",weatherData,[[[self totalHistory] samples] lastObject]);
-		[windCurrent setHistory:[self filteredTotalHistory]];
-//		[self performSelectorOnMainThread:@se
-		[self showHistoryInWindRose:[self totalHistory]];
-//		NSLog(@"set direction: %@ %d",direction,[weatherData direction]);
-		[direction setIntValue:[weatherData direction]];
-//		NSLog(@"set speed: %@ %g",speed,[weatherData speed]);
-		[speed setFloatValue:[weatherData speed]];
-		[gust setFloatValue:[weatherData gust]];
+        [[self onMainThread] updateUIWithWeatherData:weatherData];
 	} else {
-//		[direction setStringValue:@"n/a"];
-//		[speed setStringValue:@"n/a"];
-//		[gust setStringValue:@"n/a"];
 	}
 	
 	[pool release];
