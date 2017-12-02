@@ -243,8 +243,8 @@ objectAccessor( WindSampleList,forecast , setForecast )
     [windCurrent setHistory:[self filteredTotalHistory]];
     [self showHistoryInWindRose:[self totalHistory]];
     [direction setIntValue:[weatherData direction]];
-    [speed setFloatValue:[weatherData speed]];
-    [gust setFloatValue:[weatherData gust]];
+    [speed setIntValue:(int)[weatherData speed]];
+    [gust setIntValue:(int)[weatherData gust]];
 }
 
 -(void)loadMostRecentWeatherData

@@ -75,7 +75,7 @@
 			}
 			NSDateFormatter *formatter = [[[NSDateFormatter alloc] init]  autorelease]; 
 			[formatter setDateFormat:@"EEEE"];
-			float verticalOffset = j*90+26;
+			float verticalOffset = j*90+46;
 			float height = 60;
 			
 			CGRect graphRect=CGRectMake( 10, verticalOffset , 240, height );

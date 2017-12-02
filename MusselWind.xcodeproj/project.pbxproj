@@ -60,7 +60,12 @@
 		1F61E0E010B2267D00D209BA /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */; };
 		1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F675D89140B9259007A62E8 /* CoreText.framework */; };
 		1F69F7D21FD05AE100BF0945 /* DrawingContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */; };
-		1F69F7D41FD1947F00BF0945 /* DrawingContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */; };
+		1F69F7D41FD1947F00BF0945 /* DrawingContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1F69F7D71FD2CAF700BF0945 /* DrawingContext.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7D51FD2CAF700BF0945 /* DrawingContext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F69F7D91FD2CB0100BF0945 /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC45D801ED40C000068DF0F /* MPWFoundation.framework */; };
+		1F69F7DA1FD2CB0100BF0945 /* MPWFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC45D801ED40C000068DF0F /* MPWFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F69F7DC1FD2CB0A00BF0945 /* ObjectiveXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7DB1FD2CB0A00BF0945 /* ObjectiveXML.framework */; };
+		1F69F7DD1FD2CB0A00BF0945 /* ObjectiveXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F69F7DB1FD2CB0A00BF0945 /* ObjectiveXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F99BA2A1753B29A005B6846 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BA291753B29A005B6846 /* Default-568h@2x.png */; };
 		1F99BA2C1753B552005B6846 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99BA2B1753B552005B6846 /* Default@2x.png */; };
 		1F99BA2E1753BB97005B6846 /* ObjectiveXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */; };
@@ -81,8 +86,6 @@
 		1FBFBF3610B1256C00A22595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3310B1256C00A22595 /* UIKit.framework */; };
 		1FBFBF3710B1256C00A22595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3410B1256C00A22595 /* Foundation.framework */; };
 		1FBFBF3810B1256C00A22595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBFBF3510B1256C00A22595 /* CoreGraphics.framework */; };
-		1FC45D7F1ED40BF90068DF0F /* ObjectiveXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC45D7E1ED40BF90068DF0F /* ObjectiveXML.framework */; };
-		1FC45D811ED40C000068DF0F /* MPWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC45D801ED40C000068DF0F /* MPWFoundation.framework */; };
 		1FC867A9122B8BEF00803DE1 /* WindRoseXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6099E510C0F58A005C588C /* WindRoseXView.m */; };
 		1FDD4F301180AD930085B99B /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD4F2F1180AD930085B99B /* Entitlements.plist */; };
 		1FDE95E9110589A200B319C3 /* ForecastParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDE95E8110589A200B319C3 /* ForecastParser.m */; };
@@ -116,6 +119,22 @@
 			);
 		};
 /* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F69F7D81FD2CAF800BF0945 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F69F7DA1FD2CB0100BF0945 /* MPWFoundation.framework in Embed Frameworks */,
+				1F69F7DD1FD2CB0A00BF0945 /* ObjectiveXML.framework in Embed Frameworks */,
+				1F69F7D71FD2CAF700BF0945 /* DrawingContext.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -162,6 +181,8 @@
 		1F61E0DF10B2267D00D209BA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		1F675D89140B9259007A62E8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		1F69F7D31FD05AE100BF0945 /* DrawingContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DrawingContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F69F7D51FD2CAF700BF0945 /* DrawingContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DrawingContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F69F7DB1FD2CB0A00BF0945 /* ObjectiveXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectiveXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F99BA291753B29A005B6846 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1F99BA2B1753B552005B6846 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveXML.framework; path = ../../Build/Development/ObjectiveXML.framework; sourceTree = "<group>"; };
@@ -231,9 +252,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F69F7D91FD2CB0100BF0945 /* MPWFoundation.framework in Frameworks */,
 				1F69F7D41FD1947F00BF0945 /* DrawingContext.framework in Frameworks */,
-				1FC45D811ED40C000068DF0F /* MPWFoundation.framework in Frameworks */,
-				1FC45D7F1ED40BF90068DF0F /* ObjectiveXML.framework in Frameworks */,
+				1F69F7DC1FD2CB0A00BF0945 /* ObjectiveXML.framework in Frameworks */,
 				1F675D8A140B9259007A62E8 /* CoreText.framework in Frameworks */,
 				1FBFBF3610B1256C00A22595 /* UIKit.framework in Frameworks */,
 				1FBFBF3710B1256C00A22595 /* Foundation.framework in Frameworks */,
@@ -386,6 +407,8 @@
 		29B97314FDCFA39411CA2CEA /* MusselWind */ = {
 			isa = PBXGroup;
 			children = (
+				1F69F7DB1FD2CB0A00BF0945 /* ObjectiveXML.framework */,
+				1F69F7D51FD2CAF700BF0945 /* DrawingContext.framework */,
 				1F99BA2D1753BB97005B6846 /* ObjectiveXML.framework */,
 				1F99BA2B1753B552005B6846 /* Default@2x.png */,
 				1F99BA291753B29A005B6846 /* Default-568h@2x.png */,
@@ -507,6 +530,7 @@
 				1F61DF3810B0D3DA00D209BA /* Resources */,
 				1F61DF3910B0D3DA00D209BA /* Sources */,
 				1F61DF3A10B0D3DA00D209BA /* Frameworks */,
+				1F69F7D81FD2CAF800BF0945 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -897,6 +921,7 @@
 				INFOPLIST_FILE = "MusselWind-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -935,6 +960,7 @@
 				INFOPLIST_FILE = "MusselWind-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1002,6 +1028,7 @@
 				INFOPLIST_FILE = "MusselWind-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",

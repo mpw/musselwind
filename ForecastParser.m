@@ -146,7 +146,7 @@ objectAccessor( NSString, toDate, setToDate )
 -(NSString*)weatherURLString
 {
 	NSString *url= [NSString stringWithFormat:[self baseURL],[self latitude],[self longitude],[self fromDate],[self toDate]];
-	NSLog(@"forecast url: '%@'",url);
+//	NSLog(@"forecast url: '%@'",url);
 	return url;
 }
 

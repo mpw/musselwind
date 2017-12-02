@@ -127,7 +127,7 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 	for (int i=1;i<6;i++) {
 		[forecastDays addObject:[weatherStation forecastForDayFromNow:i]];
 	}
-	NSLog(@"forecasts: %@",forecastDays);
+//	NSLog(@"forecasts: %@",forecastDays);
 	[forecast setForecastData:forecastDays];
 	[self presentModalViewController:forecast animated:YES];
 }
@@ -160,7 +160,7 @@ objectAccessor( WeatherStationController , weatherStation, _setWeatherStation )
 
 -(void)setFloatValue:(double)newValue
 {
-	[self setText: [NSString stringWithFormat:@"%g",newValue]];
+	[self setText: [NSString stringWithFormat:@"%.1g",newValue]];
 }
 
 @end
